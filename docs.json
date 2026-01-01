@@ -125,6 +125,6 @@
     "default": "system"
   },
   "background": {
-    "decoration": "windows"
+    "decoration": "gradient"
   }
 }
