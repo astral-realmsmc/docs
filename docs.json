@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "AstralRealms",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#267ad9",
+    "light": "#26d971",
+    "dark": "#26d971"
   },
   "favicon": "/favicon.svg",
   "navigation": {
