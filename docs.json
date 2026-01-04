@@ -44,12 +44,6 @@
               "ai-tools/claude-code",
               "ai-tools/windsurf"
             ]
-          },
-          {
-            "group": "RomS__ - Ville",
-            "pages": [
-              "ville/introduction"
-            ]
           }
         ]
       },
@@ -69,6 +63,26 @@
               "api-reference/endpoint/create",
               "api-reference/endpoint/delete",
               "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Ville",
+        "groups": [
+          {
+            "group": "Introduction Ville",
+            "pages": [
+              "ville/introduction"
+            ]
+          },
+          {
+            "group": "Menu d'une ville",
+            "pages": [
+              "ville/roles",
+              "ville/membres",
+              "ville/banque",
+              "ville/parametres"
             ]
           }
         ]
