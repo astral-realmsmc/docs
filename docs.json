@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "aspen",
   "name": "AstralRealms",
   "colors": {
     "primary": "#267ad9",
@@ -111,17 +111,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@astralrealms.fr"
-      },
-      {
-        "label": "Site web",
-        "href": "https://astralrealms.fr/"
+        "href": "https://discord.gg/astralrealms"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Site web",
+      "href": "https://astralrealms.fr/"
     }
   },
   "contextual": {
@@ -138,7 +134,8 @@
   },
   "footer": {
     "socials": {
-      "website": "https://astralrealms.fr"
+      "website": "https://astralrealms.fr",
+      "discord": "https://discord.gg/astralrealms"
     }
   },
   "appearance": {
