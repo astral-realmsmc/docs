@@ -3,8 +3,8 @@
   "theme": "aspen",
   "name": "AstralRealms",
   "colors": {
-    "primary": "#267ad9",
-    "light": "#26d971",
+    "primary": "#26d971",
+    "light": "#267ad9",
     "dark": "#26d971"
   },
   "favicon": "/favicon.svg",
