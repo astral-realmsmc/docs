@@ -1,0 +1,404 @@
+---
+title: "Contribuer au Wiki"
+description: "Guide complet pour contribuer au wiki d'Astral Realms"
+---
+
+Bienvenue ! Nous sommes ravis que vous souhaitiez contribuer au wiki d'Astral Realms. Ce guide vous accompagnera pas à pas, même si vous n'avez jamais utilisé Git ou VSCode.
+
+<Callout type="info">
+    <strong>Vous n'avez besoin d'aucune expérience préalable !</strong> Ce guide est conçu pour les débutants complets.
+</Callout>
+
+---
+
+## 📋 Prérequis
+
+Avant de commencer, vous aurez besoin de :
+
+<CardGroup cols={2}>
+    <Card title="Un compte GitHub" icon="github">
+        <p>Si vous n'en avez pas encore, créez-en un gratuitement sur <a href="https://github.com/signup"
+                                                                         target="_blank">github.com</a></p>
+    </Card>
+
+    <Card title="Un ordinateur" icon="laptop">
+        <p>Windows, macOS ou Linux — ça fonctionne sur tous les systèmes !</p>
+    </Card>
+</CardGroup>
+
+---
+
+## 🚬 Étape 1 : Installer Git
+
+Git est l'outil qui permet de gérer les versions de fichiers.
+
+<AccordionGroup>
+    <Accordion title="Windows" icon="monitor">
+        <ol>
+            <li>Allez sur <a href="https://git-scm.com/download/win" target="_blank">git-scm.com/download/win</a></li>
+            <li>Téléchargez et lancez l'installateur</li>
+            <li>Cliquez sur <strong>"Next"</strong> à chaque étape (les options par défaut sont parfaites)</li>
+            <li>Cliquez sur <strong>"Finish"</strong> à la fin</li>
+        </ol>
+    </Accordion>
+
+    <Accordion title="macOS" icon="apple">
+        <ol>
+            <li>
+                Ouvrez le <strong>Terminal</strong> (appuyez sur <code>Cmd + Espace</code>, tapez "Terminal", puis
+                Entrée)
+            </li>
+            <li>Tapez <code>git --version</code> et appuyez sur Entrée</li>
+            <li>Si Git n'est pas installé, votre Mac vous proposera de l'installer automatiquement</li>
+            <li>Cliquez sur <strong>"Installer"</strong> et attendez la fin</li>
+        </ol>
+    </Accordion>
+
+    <Accordion title="Linux (Ubuntu/Debian)" icon="terminal">
+        <ol>
+            <li>Ouvrez un terminal</li>
+            <li>Tapez : <code>sudo apt update && sudo apt install git</code></li>
+            <li>Entrez votre mot de passe si demandé</li>
+            <li>Appuyez sur <strong>Y</strong> si on vous demande de confirmer</li>
+        </ol>
+    </Accordion>
+</AccordionGroup>
+
+<Note>
+    Une fois installé, vérifiez que Git fonctionne en tapant <code>git --version</code> dans votre terminal. Vous
+    devriez voir un numéro de version s'afficher.
+</Note>
+
+---
+
+## 📦 Étape 2 : Installer VSCode
+
+VSCode est un éditeur de code gratuit et très puissant.
+
+1. Allez sur <a href="https://code.visualstudio.com/" target="_blank">code.visualstudio.com</a>
+2. Cliquez sur le bouton de téléchargement pour votre système
+3. Lancez l'installateur et suivez les étapes (options par défaut recommandées)
+
+<Callout type="tip">
+    <strong>Astuce :</strong> Cochez la case "Add 'Open with Code' to action" (ou équivalent) lors de l'installation
+    pour pouvoir ouvrir des dossiers directement depuis VSCode.
+</Callout>
+
+---
+
+## 🔑 Étape 3 : Configurer Git
+
+Ouvrez un terminal et configurez Git avec votre identité GitHub :
+
+```bash
+git config --global user.name "Votre Nom"
+git config --global user.email "votre@email.com"
+```
+
+<Callout type="warning">
+    <strong>Important :</strong> Utilisez la même adresse email que celle de votre compte GitHub !
+</Callout>
+
+---
+
+## 🍴 Étape 4 : Forker le dépôt
+
+Le forking crée une copie personnelle du dépôt sur votre compte GitHub.
+
+<AccordionGroup>
+    <Accordion title="Créer le Fork" icon="git-fork">
+        <ol>
+            <li>Allez sur le dépôt du wiki d'Astral Realms</li>
+            <li>Cliquez sur le bouton <strong>"Fork"</strong> en haut à droite de la page</li>
+            <li>Attendez que GitHub crée votre fork</li>
+            <li>Vous serez redirigé vers votre propre copie du dépôt</li>
+        </ol>
+    </Accordion>
+</AccordionGroup>
+
+---
+
+## 📥 Étape 5 : Cloner localement
+
+Le clonage télécharge une copie du dépôt sur votre ordinateur.
+
+<AccordionGroup>
+    <Accordion title="Récupérer l'URL" icon="link">
+        <ol>
+            <li>Sur votre fork, cliquez sur le bouton vert <strong>"Code"</strong></li>
+            <li>Assurez-vous que l'onglet <strong>"HTTPS"</strong> est sélectionné</li>
+            <li>Cliquez sur l'icône de copie à côté de l'URL</li>
+        </ol>
+    </Accordion>
+
+    <Accordion title="Cloner le dépôt" icon="download">
+        <ol>
+            <li>Ouvrez un terminal</li>
+            <li>
+                Naviguez vers l'endroit où vous voulez mettre le projet (optionnel) : <pre><code>cd chemin/vers/votre/dossier</code></pre>
+            </li>
+            <li>
+                Tapez :
+                <pre><code>git clone [l'URL-copiée]</code></pre>
+            </li>
+            <li>Appuyez sur Entrée et attendez le téléchargement</li>
+        </ol>
+    </Accordion>
+</AccordionGroup>
+
+<Note>
+    Vous devriez maintenant avoir un nouveau dossier contenant tous les fichiers du wiki.
+</Note>
+
+---
+
+## 💻 Étape 6 : Ouvrir dans VSCode
+
+1. Ouvrez VSCode
+2. Cliquez sur **File** → **Open Folder...** (ou Fichier → Ouvrir un dossier...)
+3. Sélectionnez le dossier que vous venez de cloner
+4. Cliquez sur **Ouvrir**
+
+<Callout type="tip">
+    <strong>Raccourci :</strong> Dans le terminal, depuis le dossier du projet, vous pouvez taper <code>code
+    .</code> pour ouvrir le dossier directement dans VSCode.
+</Callout>
+
+---
+
+## 🌿 Étape 7 : Créer une branche
+
+Il est important de créer une nouvelle branche pour vos modifications.
+
+<AccordionGroup>
+    <Accordion title="Via VSCode" icon="code-2">
+        <ol>
+            <li>Cliquez sur la branche actuelle (en bas à gauche, généralement "main")</li>
+            <li>Dans la liste, cliquez sur <strong>"Create new branch..."</strong></li>
+            <li>
+                Donnez un nom à votre branche, par exemple :
+                <ul>
+                    <li><code>ma-contribution</code></li>
+                    <li><code>ajout-page-ville</code></li>
+                    <li><code>correction-orthographe</code></li>
+                </ul>
+            </li>
+            <li>Appuyez sur Entrée</li>
+        </ol>
+    </Accordion>
+
+    <Accordion title="Via le Terminal" icon="terminal">
+        <ol>
+            <li>
+                Dans le terminal, tapez :
+                <pre><code>git checkout -b ma-contribution</code></pre>
+            </li>
+            <li>Remplacez <code>ma-contribution</code> par le nom de votre choix</li>
+        </ol>
+    </Accordion>
+</AccordionGroup>
+
+---
+
+## ✏️ Étape 8 : Faire vos modifications
+
+Maintenant vous pouvez modifier les fichiers !
+
+<AccordionGroup>
+    <Accordion title="Créer un nouveau fichier" icon="file-plus">
+        <ol>
+            <li>Dans l'explorateur de fichiers (gauche), faites un clic droit</li>
+            <li>Sélectionnez <strong>"New File"</strong></li>
+            <li>Donnez un nom au fichier avec l'extension <code>.mdx</code></li>
+            <li>Exemple : <code>ma-nouvelle-page.mdx</code></li>
+        </ol>
+    </Accordion>
+
+    <Accordion title="Modifier un fichier existant" icon="edit">
+        <ol>
+            <li>Cliquez sur le fichier que vous voulez modifier</li>
+            <li>Faites vos changements dans l'éditeur</li>
+            <li>Sauvegardez avec <code>Cmd+S</code> (Mac) ou <code>Ctrl+S</code> (Windows/Linux)</li>
+        </ol>
+    </Accordion>
+</AccordionGroup>
+
+<Callout type="info">
+    <strong>Format des fichiers :</strong> Nous utilisons le format <strong>MDX</strong> (Markdown avec des composants).
+    C'est comme du Markdown normal mais avec des composants Mintlify supplémentaires.
+</Callout>
+
+---
+
+## 👀 Étape 9 : Prévisualiser vos changements
+
+Avant de proposer vos changements, vous pouvez les voir en direct.
+
+1. Ouvrez un terminal dans VSCode (<code>Ctrl+`</code> ou <strong>Terminal</strong> → <strong>New Terminal</strong>)
+2. Installez Mintlify si ce n'est pas déjà fait :
+```bash
+npm i -g mint
+   ```
+3. Lancez le serveur de prévisualisation :
+```bash
+mint dev
+   ```
+4. Ouvrez votre navigateur sur <code>http://localhost:3000</code>
+
+<Note>
+    Vos changements apparaissent en temps réel à mesure que vous modifiez les fichiers !
+</Note>
+
+---
+
+## 💾 Étape 10 : Sauvegarder vos changements
+
+Une fois satisfait de vos modifications, il faut les "commiter".
+
+<AccordionGroup>
+    <Accordion title="Via VSCode" icon="git-commit">
+        <ol>
+            <li>Cliquez sur l'icône de branche (source control) dans la barre latérale gauche</li>
+            <li>Vous verrez vos fichiers modifiés</li>
+            <li>Tapez un message de commit décrivant vos changements dans la box en haut</li>
+            <li>
+                Exemples de messages :
+                <ul>
+                    <li><code>"Ajout page sur la ville de Paris"</code></li>
+                    <li><code>"Correction typo dans les règles"</code></li>
+                    <li><code>"Mise à jour des farms autorisées"</code></li>
+                </ul>
+            </li>
+            <li>Cliquez sur le <strong>✓</strong> pour valider</li>
+        </ol>
+    </Accordion>
+
+    <Accordion title="Via le Terminal" icon="terminal">
+        <ol>
+            <li>
+                Tapez :
+                <pre><code>git add .</code></pre>
+            </li>
+            <li>
+                Puis tapez :
+                <pre><code>git commit -m "Votre message de commit"</code></pre>
+            </li>
+        </ol>
+    </Accordion>
+</AccordionGroup>
+
+---
+
+## 📤 Étape 11 : Pousser vos changements
+
+Maintenant il faut envoyer vos changements vers votre fork sur GitHub.
+
+<AccordionGroup>
+    <Accordion title="Via VSCode" icon="upload-cloud">
+        <ol>
+            <li>Cliquez sur l'icône de branche en bas à gauche</li>
+            <li>Vous devriez voir <strong>"Publish Branch"</strong> ou <strong>"Sync Changes"</strong></li>
+            <li>Cliquez dessus pour envoyer vos changements</li>
+        </ol>
+    </Accordion>
+
+    <Accordion title="Via le Terminal" icon="terminal">
+        <ol>
+            <li>
+                Tapez :
+                <pre><code>git push origin ma-contribution</code></pre>
+            </li>
+            <li>Remplacez <code>ma-contribution</code> par le nom de votre branche</li>
+        </ol>
+    </Accordion>
+</AccordionGroup>
+
+---
+
+## 🔀 Étape 12 : Créer une Pull Request
+
+La Pull Request (PR) propose vos changements au dépôt original.
+
+1. Allez sur votre fork sur GitHub
+2. Vous devriez voir une bannière vous proposant de créer une Pull Request
+3. Cliquez sur <strong>"Compare & pull request"</strong> ou <strong>"Contribute"</strong>
+4. Remplissez le formulaire :
+- **Titre** : Une courte description de vos changements
+- **Description** : Plus de détails si nécessaire
+5. Cliquez sur <strong>"Create pull request"</strong>
+
+<Callout type="success">
+    <strong>Bravo !</strong> Votre contribution est maintenant soumise. L'équipe va la révoir et vous laissera des
+    commentaires si nécessaire.
+</Callout>
+
+---
+
+## 💡 Conseils et Bonnes Pratiques
+
+<CardGroup cols={2}>
+    <Card title="Commits fréquents" icon="git-commit">
+        <p>Faites des commits réguliers avec des messages clairs. C'est plus facile de corriger des erreurs.</p>
+    </Card>
+
+    <Card title="Branche par modification" icon="git-branch">
+        <p>Créez une nouvelle branche pour chaque modification ou fonctionnalité.</p>
+    </Card>
+
+    <Card title="Messages clairs" icon="message-square">
+        <p>Décrivez ce que vous changez et pourquoi. Exemple: "Fix typo in rules" plutôt que "update".</p>
+    </Card>
+
+    <Card title="Prévisualisation" icon="eye">
+        <p>Utilisez toujours <code>mint dev</code> pour vérifier le rendu avant de proposer vos changements.</p>
+    </Card>
+</CardGroup>
+
+---
+
+## 🆘 Problèmes fréquents
+
+<AccordionGroup>
+    <Accordion title="Git n'est pas reconnu" icon="alert-circle">
+        <p>Assurez-vous que Git est bien installé et que vous avez redémarré votre terminal après l'installation.</p>
+    </Accordion>
+
+    <Accordion title="Permission refusée" icon="lock">
+        <p>Vérifiez que vous avez bien forké le dépôt et que vous êtes connecté à votre compte GitHub.</p>
+    </Accordion>
+
+    <Accordion title="Conflits de fusion" icon="git-merge">
+        <p>Si le dépôt original a changé, vous devrez peut-être mettre à jour votre fork. Demandez de l'aide sur Discord
+            si cela arrive !</p>
+    </Accordion>
+
+    <Accordion title="La prévisualisation ne fonctionne pas" icon="alert-triangle">
+        <p>Assurez-vous d'être dans le bon dossier et que le port 3000 n'est pas déjà utilisé par une autre
+            application.</p>
+    </Accordion>
+</AccordionGroup>
+
+---
+
+## 📚 Ressources Utiles
+
+<CardGroup>
+    <Card title="Documentation Mintlify" icon="book-open" href="https://mintlify.com/docs">
+        Apprenez-en plus sur les composants et fonctionnalités de Mintlify.
+    </Card>
+
+    <Card title="Guide Git interactif" icon="git-branch" href="https://learngitbranching.js.org/">
+        Un jeu interactif pour apprendre Git de manière ludique.
+    </Card>
+
+    <Card title="Documentation VSCode" icon="code" href="https://code.visualstudio.com/docs">
+        Maîtrisez votre éditeur de code.
+    </Card>
+</CardGroup>
+
+---
+
+<Callout type="info">
+    <strong>Besoin d'aide ?</strong> N'hésitez pas à nous contacter sur Discord si vous êtes bloqué à une étape. La
+    communauté est là pour vous aider !
+</Callout>
