@@ -23,6 +23,7 @@
             "group": "Les Regles",
             "pages": [
               "rules/index",
+              "rules/modsauto",
               "rules/farms"
             ]
           },
