@@ -1,0 +1,19 @@
+---
+title: 'Banque'
+description: 'Explication de la banque d''une ville'
+icon: 'piggy-bank'
+---
+
+Chaque ville à sa propre économie interne. Cette économie sert pour l'instant à pouvoir **claim** différent chunk pour aggrandir votre surface de construction.
+
+<Card title="Déposer de l'argent" icon="money-bill-transfer" horizontal>
+  La commande pour déposer de l'argent est `/ville deposit <montant>`
+  <Danger>Nécessite la [permissions](ville/permissions) de déposer de l'argent dans la ville.</Danger>
+</Card>
+
+<Card title="Retirer de l'argent" icon="money-bill-transfer" horizontal>
+    La commande pour retirer de l'argent est `/ville withdraw <montant>`
+  <Danger>Nécessite la [permissions](ville/permissions) de retirer de l'argent dans la ville.</Danger>
+</Card> 
+
+<Note>Veuillez rentrer un chiffre/nombre non décimal supérieur à 0 à la place de \<montant>.</Note>

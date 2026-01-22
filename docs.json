@@ -66,6 +66,26 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Ville",
+        "groups": [
+          {
+            "group": "Introduction Ville",
+            "pages": [
+              "ville/introduction"
+            ]
+          },
+          {
+            "group": "Menu d'une ville",
+            "pages": [
+              "ville/roles",
+              "ville/membres",
+              "ville/banque",
+              "ville/parametres"
+            ]
+          }
+        ]
       }
     ],
     "global": {
