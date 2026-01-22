@@ -11,21 +11,19 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Acceuil",
         "groups": [
           {
             "group": "Getting started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Les Regles",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "rules/index",
+              "rules/farms"
             ]
           },
           {
