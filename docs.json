@@ -11,46 +11,162 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Acceuil",
+        "tab": "Accueil",
         "groups": [
           {
             "group": "Demarrage",
             "pages": [
-              "index"
+              "welcome/start"
             ]
           },
           {
-            "group": "Les Regles",
+            "group": "Règlement",
             "pages": [
-              "rules/index",
-              "rules/modsauto",
-              "rules/farms"
+              "welcome/rules/rules",
+              "welcome/rules/modsauto",
+              "welcome/rules/farms"
             ]
           },
           {
             "group": "Autres",
             "pages": [
-              "contributing/index"
+              "welcome/wiki"
             ]
           }
         ]
       },
       {
-        "tab": "Ville",
+        "tab": "Dimensions",
         "groups": [
           {
-            "group": "Introduction Ville",
+            "group": "Dimensions",
             "pages": [
-              "ville/introduction"
+              "world/introduction",
+              "world/new_world"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "Villes",
+        "groups": [
           {
-            "group": "Menu d'une ville",
+            "group": "Villes",
             "pages": [
-              "ville/roles",
-              "ville/membres",
-              "ville/banque",
-              "ville/parametres"
+              "city/introduction",
+              "city/roles",
+              "city/members",
+              "city/bank",
+              "city/settings"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Métiers",
+        "groups": [
+          {
+            "group": "Métiers",
+            "pages": [
+              "jobs/introduction",
+              "jobs/rewards",
+              "jobs/economy"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Rangs",
+        "groups": [
+          {
+            "group": "Rangs",
+            "pages": [
+              "ranks/introduction",
+              "ranks/avantages"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Items customs",
+        "groups": [
+          {
+            "group": "Items customs",
+            "pages": [
+              "items/introduction",
+              "items/enchanted",
+              "items/items"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Tour dimensionnelle",
+        "groups": [
+          {
+            "group": "Tour dimensionnelle",
+            "pages": [
+              "tower/introduction",
+              "tower/dimensional_tower"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Donjons",
+        "groups": [
+          {
+            "group": "Donjons",
+            "pages": [
+              "dungeon/introduction",
+              "dungeon/dungeons",
+              "dungeon/keys"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Classes",
+        "groups": [
+          {
+            "group": "Classes",
+            "pages": [
+              "class/introduction",
+              "class/class_dungeons",
+              "class/class_tower"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Boutique",
+        "groups": [
+          {
+            "group": "Boutique",
+            "pages": [
+              "store/introduction",
+              "store/crates",
+              "store/keys",
+              "store/subscription"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Autres fonctionnalités",
+        "groups": [
+          {
+            "group": "Autres fonctionnalités",
+            "pages": [
+              "other_fonctionnality/pets",
+              "other_fonctionnality/scrolls",
+              "other_fonctionnality/vote",
+              "other_fonctionnality/pass",
+              "other_fonctionnality/ah",
+              "other_fonctionnality/tags",
+              "other_fonctionnality/rewards",
+              "other_fonctionnality/settings",
+              "other_fonctionnality/mailbox"
             ]
           }
         ]
