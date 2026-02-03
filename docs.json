@@ -41,8 +41,8 @@
           {
             "group": "Dimensions",
             "pages": [
-              "world/introduction",
-              "world/new_world"
+              "world/spawn",
+              "world/world"
             ]
           }
         ]
@@ -53,11 +53,11 @@
           {
             "group": "Villes",
             "pages": [
-              "city/introduction",
-              "city/roles",
-              "city/members",
-              "city/bank",
-              "city/settings"
+              "town/introduction",
+              "town/roles",
+              "town/members",
+              "town/bank",
+              "town/settings"
             ]
           }
         ]
@@ -68,9 +68,9 @@
           {
             "group": "Métiers",
             "pages": [
-              "jobs/introduction",
+              "jobs/jobs",
               "jobs/rewards",
-              "jobs/economy"
+              "jobs/action"
             ]
           }
         ]
@@ -81,7 +81,7 @@
           {
             "group": "Rangs",
             "pages": [
-              "ranks/introduction",
+              "ranks/ranks",
               "ranks/avantages"
             ]
           }
@@ -94,8 +94,9 @@
             "group": "Items customs",
             "pages": [
               "items/introduction",
+              "items/items",
               "items/enchanted",
-              "items/items"
+              "items/effect"
             ]
           }
         ]
@@ -106,8 +107,7 @@
           {
             "group": "Tour dimensionnelle",
             "pages": [
-              "tower/introduction",
-              "tower/dimensional_tower"
+              "tower/introduction"
             ]
           }
         ]
@@ -118,9 +118,7 @@
           {
             "group": "Donjons",
             "pages": [
-              "dungeon/introduction",
-              "dungeon/dungeons",
-              "dungeon/keys"
+              "dungeon/introduction"
             ]
           }
         ]
@@ -131,9 +129,7 @@
           {
             "group": "Classes",
             "pages": [
-              "class/introduction",
-              "class/class_dungeons",
-              "class/class_tower"
+              "class/introduction"
             ]
           }
         ]
@@ -145,9 +141,10 @@
             "group": "Boutique",
             "pages": [
               "store/introduction",
+              "store/grades",
               "store/crates",
-              "store/keys",
-              "store/subscription"
+              "store/subscription",
+              "store/rewards"
             ]
           }
         ]
@@ -158,15 +155,17 @@
           {
             "group": "Autres fonctionnalités",
             "pages": [
-              "other_fonctionnality/pets",
               "other_fonctionnality/scrolls",
               "other_fonctionnality/vote",
               "other_fonctionnality/pass",
               "other_fonctionnality/ah",
               "other_fonctionnality/tags",
               "other_fonctionnality/rewards",
+              "other_fonctionnality/shops",
+              "other_fonctionnality/commands",
               "other_fonctionnality/settings",
-              "other_fonctionnality/mailbox"
+              "other_fonctionnality/mailbox",
+              "other_fonctionnality/plushies"
             ]
           }
         ]
