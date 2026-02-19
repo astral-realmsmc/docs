@@ -30,7 +30,8 @@
           {
             "group": "Autres",
             "pages": [
-              "welcome/wiki"
+              "welcome/wiki",
+              "welcome/pillar"
             ]
           }
         ]
