@@ -166,7 +166,8 @@
               "other_fonctionnality/commands",
               "other_fonctionnality/settings",
               "other_fonctionnality/mailbox",
-              "other_fonctionnality/plushies"
+              "other_fonctionnality/plushies",
+              "other_fonctionnality/lock"
             ]
           }
         ]
