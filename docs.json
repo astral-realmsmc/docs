@@ -58,7 +58,8 @@
               "town/roles",
               "town/members",
               "town/bank",
-              "town/settings"
+              "town/settings",
+              "town/ase"           
             ]
           }
         ]
@@ -167,7 +168,8 @@
               "other_fonctionnality/settings",
               "other_fonctionnality/mailbox",
               "other_fonctionnality/plushies",
-              "other_fonctionnality/lock"
+              "other_fonctionnality/lock",
+              "other_fonctionnality/hdb"
             ]
           }
         ]
