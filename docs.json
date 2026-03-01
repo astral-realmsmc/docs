@@ -104,6 +104,21 @@
         ]
       },
       {
+        "tab": "Économie",
+        "groups": [
+          {
+            "group": "Économie",
+            "pages": [
+              "economy/introduction",
+              "economy/jobs",
+              "economy/dailyshop",
+              "economy/ah",
+              "economy/shops"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Tour dimensionnelle",
         "groups": [
           {
@@ -160,11 +175,8 @@
               "other_fonctionnality/scrolls",
               "other_fonctionnality/vote",
               "other_fonctionnality/pass",
-              "other_fonctionnality/dailyshop",
-              "other_fonctionnality/ah",
               "other_fonctionnality/tags",
               "other_fonctionnality/rewards",
-              "other_fonctionnality/shops",
               "other_fonctionnality/commands",
               "other_fonctionnality/settings",
               "other_fonctionnality/mailbox",
