@@ -124,7 +124,10 @@
           {
             "group": "Tour dimensionnelle",
             "pages": [
-              "tower/introduction"
+              "tower/introduction",
+              "tower/progress",
+              "tower/mobs",
+              "tower/artifacts"
             ]
           }
         ]
@@ -146,7 +149,8 @@
           {
             "group": "Classes",
             "pages": [
-              "class/introduction"
+              "class/introduction",
+              "class/firemage"
             ]
           }
         ]
