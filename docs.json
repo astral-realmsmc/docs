@@ -178,6 +178,7 @@
             "pages": [
               "other_fonctionnality/scrolls",
               "other_fonctionnality/vote",
+              "other_fonctionnality/pets",
               "other_fonctionnality/pass",
               "other_fonctionnality/tags",
               "other_fonctionnality/rewards",
