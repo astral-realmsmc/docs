@@ -4,6 +4,163 @@ description: "Toutes les commandes du serveur"
 icon: "keyboard"
 ---
 
-<Note>
-  Page en cours de création
-</Note>
+## 📋 Menu 
+
+-``/menu`` : ouvrir le menu principal\
+-``/boutique`` : ouvrir le menu de la boutique\
+-``/parametres`` : ouvrir le menu des paramètres
+
+
+## 🌍 Mondes
+
+-``/monde`` : ouvre le menu des mondes\
+-``/spawn`` : téléporter au spawn\
+-``/build`` : téléporter dans le monde construction\
+-``/ressource`` : téléporter dans le monde ressource\
+-``/nether ``: téléporter dans la dimension nether\
+-``/end`` : téléporter dans la dimension ender\
+-``/rtp`` : téléporter aléatoirement\
+-``/tpa `` : envoyer une demande de téléportation pour se téléporter à quelqu'un\
+-``/tpahere`` : envoyer une demande de téléportation pour téléporter à quelqu'un sur soi\
+-``/tpyes``: accepter la demande de téléportation\
+-``/tpno`` : refuser la demande de téléportation\
+-``/sethome`` 'nom' : créer un home\
+-``/home`` 'nom' : téléporter à un home\
+-``/delhome`` 'nom' : supprimer le home
+
+## 🏠 Ville 
+
+
+-``/v create`` : créer une ville\
+-``/v disband`` : supprimer la ville\
+-``/v info`` [nom] : afficher les informations d'une ville\
+-``/v playerinfo``[pseudo] : afficher les informations d'un joueur\
+-``/v invite`` [pseudo] : inviter un joueur à sa ville\
+-``/v cancel`` [pseudo] : annuler l'invitation d'un joueur\ 
+-``/v accept`` : accepter l'invitation\
+-``/v decline``: refuser l'invitation\
+-``/v leave`` : quitter la ville\
+-``/v members`` : ouvrir le menu des membres\
+-``/v chat`` : activer/désactiver le chat de ville\
+-``/v claim`` : claim le chunk\
+-``/v autoclaim`` : claim automatiquement les chunks où l'on se situe\
+-``/v unclaim`` : unclaim le chunk\
+-``/v view`` : visualiser les claims et sous zone\
+-``/v setwarp`` [nom] ou ``/vw set`` [nom] : créer un warp de ville et définir le point de téléportation\
+-``/v delwarp`` [nom] ou ``/vw del`` [nom] : supprimer le warp de ville\ 
+-``/v bank`` : ouvrir la banque de la ville sélectionnée\
+-``/v balance``: avoir le solde de sa ville\
+-``/v deposit`` : déposer de l'argent\
+-``/v withdraw`` : retirer de l'argent\
+-``/v zone create`` : crée une sous zone\
+-``/v zone delete`` [nom] : supprime la sous zone\
+-``/v zone invite`` [nom de la sous zone] [pseudo] : inviter un joueur dans la sous zone\
+-``/v zone kick`` [nom de la sous zone] [pseudo] : expulser un joueur de la sous zone\
+-``/v zone delete`` [nom de la sous zone] : supprimer la sous zone\
+-``/v roles`` : ouvrir le menu des rôles\
+-``/v broadcast`` : faire une annonce dans la ville\`
+-``/v logs``: ouvrir le menu des logs de ville.
+
+
+*Pour plus d'informations concernant les [villes](https://wiki.astralrealms.fr/town/introduction), consulte la page dédiée.*
+
+
+## 🗼Tour dimensionnelle
+
+-``/tour`` : ouvrir le menu de la tour\
+-``/party create`` : Créer un groupe\
+-``/party invite`` [pseudo] : inviter un joueur dans son groupe\
+-``/party accept`` : accepter l'invitation\
+-``/party decline`` : refuser l'invitation\
+-``/party leave`` : quitter le groupe\
+-``/party kick`` : expulser un joueur de son groupe\
+-``/party transfer :`` transférer la propriété du groupe\
+-``/party disband :`` dissoudre le groupe
+
+*Pour plus d'informations concernant la [tour dimensionnelle](https://wiki.astralrealms.fr/tower/introduction), consulte la page dédiée.*
+
+
+## 💵 Economie
+
+-``/money`` : voir son solde\
+-``/baltop`` : voir le classement top 10\
+-``/pay`` [pseudo] [montant] : payer un joueur\
+-``/ah`` : ouvrir le menu de l'ah\
+-``/ah sell`` [prix] : vendre l'item de sa main
+
+
+## 💪 Progression 
+
+-``/rang`` : ouvrir le menu des rangs\
+-``/missions`` *[eco/farmer/fisherman/hunter/jobs-level/lumberjack/miner/other/player-level]* : ouvrir le menu des missions pour une catégorie spécifique\
+-``/metier`` ou ``/jobs`` : ouvrir le menu des métiers\
+-``/jobs claim`` : récupérer les récompenses disponible des niveaux de métier\`
+-``/parchemins`` : ouvrir le menu des parchemins, permettant de voir les récompenses pour chaque rareté\
+-``/rewards`` : ouvrir le menu des récompenses journalières et des temps de jeu\
+-``/votes`` :  ouvrir le menu des votes
+
+## 🎤 Social
+
+-``/msg`` [pseudo] : envoyer un message à un joueur\
+-``/ignore`` [pseudo] : ignorer un joueur\
+-``/unignore`` [pseudo] : désignorer un joueur\
+-``/togglepm`` : activer/désactiver les mp\
+-``/chatcommerce``ou ``/cc``  : envoyer un message dans le chat commerce (⏳ 15 minutes)\
+-``/chatrecrutement``ou ``/cr``  : envoyer un message dans le chat recrutement (⏳ 15 minutes)\
+-``/unscribe`` [recrutement/commerce/global] : désactiver le chat recrutement/commerce/global\
+-``/tags``: ouvrir le menu des tags
+
+## 📜 Rangs & Grades
+
+<div align="center">
+
+
+| ⌨️ Commande | ❔​ Utilisation | ⏳​ Cooldown | 📜​ Obtention |
+|:--------:|:-----------:|:--------:|:----------:|
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/pweather``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Modifier la météo pour soi</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>❌</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Roturier / Arcane</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/furnace``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Cuire l'item en main*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>⏳ 5 min</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Serfs / Arcane</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/craft``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Ouvrir la table de craft*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>❌</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Paysan / Arcane</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/condense``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Transformer les ressources en blocs*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>⏳ 10s</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Apprenti / Arcane</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/strip``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Écorcer les bûches dans la main*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>⏳ 5 min</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Apprenti / Arcane</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/ptime``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Changer le temps*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>❌</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Artisan / Arcane</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/sell``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Vendre l'item dans la main*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>❌</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Écuyer / Arcane</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/condense all``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Transformer toutes les ressources de l'inventaire en blocs*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>⏳ 5 min</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Architecte / Arcane</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/top``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Téléporter à la dernière couche*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>❌</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Bourgeois / Arcane</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/stonecutter``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Ouvrir la tailleuse de pierre*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>❌</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Bourgeois</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/furnace all``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Cuire tous les items de son inventaire*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>⏳ 6h</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Marchand / Céleste</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/feed``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Se nourrir*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>⏳ 30s</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Chevalier / Céleste</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/heal``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Se soigner*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>⏳ 60 min</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Maître / Mystique</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/strip all``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Écorcer les bûches de son inventaire*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>⏳ 6h</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Maître / Mystique</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/repair``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Réparer l'item de sa main*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>⏳ 60 min</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Baron / Céleste</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/ec``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Ouvrir l'enderchest*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>❌</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Marquis / Mystique</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/anvil``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Ouvrir l'enclume*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>❌</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Duc / Céleste</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/xpbottle``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Créer des fioles d'XP*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>❌</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Gouverneur / Mystique</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/back``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Se téléporter à son ancienne position*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>❌</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Comte / Mystique</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/sell all``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Vendre les items de son inventaire*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>❌</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Prince / Mystique</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/fire``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Retirer l'effet de feu*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>❌</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Roi / Mystique</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/repair all``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Réparer tous les outils vanilla de son inventaire*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>⏳ 24h</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Seigneur / Mystique</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/fly``** (infini)</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Fly*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>❌</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Empereur / Mystique</td> |
+| <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>**``/hat``**</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>*Mettre des items sur sa tête*</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>❌</td> | <td style={{ verticalAlign: 'middle', textAlign: 'center' }}>Mystique</td> |
+
+</div>
+*Pour plus d'informations concernant les [grades](https://wiki.astralrealms.fr/store/grades) et les [rangs](https://wiki.astralrealms.fr/ranks/ranks), consulte leurs pages respectives.*
+
+
+
+## 🔒 Cadenas
+
+-``/cadenas`` : ouvrir le menu d'achat du cadenas\
+-``/pc add`` [pseudo] : ajouter un joueur au coffre privé\
+-``/pc remove`` [pseudo] : retirer un joueur du coffre privé\
+-``/pc list`` : voir la liste des joueurs qui ont accès à un coffre privé
+
+*Pour plus d'informations concernant les [cadenas](https://wiki.astralrealms.fr/other_fonctionnality/lock), consulte la page dédiée.*
+
+## ⚙️ Divers
+
+-``/mailbox`` : ouvrir la mailbox\
+-``/emoji`` : ouvrir le menu des emojis\
+-``/discord`` ou ``/dc`` : discord du serveur\
+-``/link`` : pour lier son compte MC à Discord
+
+
