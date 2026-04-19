@@ -59,6 +59,7 @@
               "town/members",
               "town/bank",
               "town/settings",
+              "town/souszone",
               "town/ase"           
             ]
           }
