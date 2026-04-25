@@ -4,6 +4,111 @@ description: "Tout savoir sur les sous zones"
 icon: 'building'
 ---
 
-<Note>
-  Page en cours de création.
-</Note>
+<Steps>
+<Step title="🗺️ Menu des sous-zones">
+Fais ``/v zone`` et ça t'ouvrira un menu. Tu y trouveras toutes les zones déjà existantes mais tu pourras aussi en créer de nouvelle.
+
+
+<img 
+  src="/images/ville/menu_sous_zone.png" 
+  alt= "Interface du /v zone"
+  className="mx-auto"/>
+
+- **🔴 Rouge**  
+    ➜ L'emplacement des sous-zones déjà existantes.
+
+- **🔵 Bleu**  
+    ➜ Icône pour créer une nouvelle sous-zone.
+</Step>
+
+
+<Step title="🏢 Création de la sous-zone">
+
+Tu peux soit passer par le menu avec l'icône ➕ ou bien taper la commande : 
+```
+/ville zone create
+```
+Cela te demandera de sélectionner le premier coin de la sous-zone. Tu pourras prévisualiser la sous-zone avec des particules blanches lors de la sélection. 
+
+<img 
+  src="/images/ville/création_sous_zone.png" 
+  alt= "Prévisualisation sous zone"
+  className="mx-auto"/>
+
+Tu sélectionneras le second coin de la sous-zone et un menu sera ouvert.
+<img 
+  src="/images/ville/menu_création_sous_zone.png" 
+  alt= "Menu création de sous zone"
+  className="mx-auto"/>
+
+- **🔵 Bleu**  
+    ➜ Nom de la sous-zone.
+
+- **🔴 Rouge**  
+    ➜ Description de la sous-zone.
+
+- **🟢 Vert**  
+    ➜ Cette fonctionnalité te permet de synchroniser les paramètres de la ville avec celle de ta sous-zone.
+
+Après avoir fait **"confirmer"**, ta sous-zone sera crée.
+<img 
+  src="/images/ville/message_sous_zone_crée.png" 
+  alt= "Message création de sous zone"
+  className="mx-auto"/>
+
+</Step>
+
+<Step title="🧱 Sous-zone ">
+
+
+Lorsque ta sous-zone est créée, et que tu iras dans le menu sous-zone et que tu glisseras ta souris sur l'icône de celle-ci, tu pourras voir les coordonnées de cette dernière.
+
+<img 
+  src="/images/ville/sous_zone_crée.png" 
+  alt= "Message création de sous zone"
+  className="mx-auto"/>
+
+🚧 Tu peux voir les bordures de ta sous zone (en bleu) avec la commande **/v view**.  
+*Attention, cela nécessite d'activer les particules dans les options.*
+
+<img 
+  src="/images/ville/vview_souszone.png" 
+  alt= "Message création de sous zone"
+  className="mx-auto"/>
+
+</Step>
+
+<Step title="⚙️ Personnalise ta sous-zone">
+La commande principale pour **interagir avec les paramètres** de ta sous zone est la commande `/ville zone` puis tu sélectionnes la sous-zone que tu souhaites personnaliser.
+
+Dans le menu de la sous-zone, trois options principales sont présentes :
+- <Icon icon="people-roof" size={16}/> [Rôles](https://wiki.astralrealms.fr/town/roles) (Le livre)
+- <Icon icon="user" size={16}/> [Membres](https://wiki.astralrealms.fr/town/members) (La tête)
+- <Icon icon="gear" size={16}/> [Paramètres](https://wiki.astralrealms.fr/town/settings) (La redstone)
+
+<Danger>Si tu as décidé de synchroniser les paramètres de la ville avec celle de la sous-zone, au lieu qu'il y ait de la redstone pour les paramètres, tu auras une barrière invisible.</Danger>
+<img 
+  src="/images/ville/menu_sous_zone_zone.png" 
+  alt="Interface de la commande /ville"
+  className="mx-auto"/>
+
+
+- **🔴 Rouge**  
+    ➜ Éditer la taille de la zone.
+
+- **🔵 Bleu**  
+    ➜ Modifier la sous-zone.
+
+</Step>
+
+
+
+
+<Step title="📙 Informations supplémentaires">
+- Il n'y a pas de limite de sous-zone.
+- Les membres de la ville sont d'office dans la zone.
+- Inviter un joueur -> **/ville zone invite [nom de la zone] \<pseudonyme>**
+- Exclure un joueur -> **/ville zone kick [nom de la zone] \<pseudonyme>**
+- Supprimer une zone -> **/ville zone disband [nom de la zone]**
+</Step>
+</Steps>

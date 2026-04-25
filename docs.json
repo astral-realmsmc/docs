@@ -60,7 +60,8 @@
               "town/bank",
               "town/settings",
               "town/souszone",
-              "town/ase"           
+              "town/ase",
+              "town/commande"         
             ]
           }
         ]
