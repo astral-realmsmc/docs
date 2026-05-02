@@ -187,6 +187,7 @@
               "other_fonctionnality/commands",
               "other_fonctionnality/settings",
               "other_fonctionnality/mailbox",
+              "other_fonctionnality/collections",
               "other_fonctionnality/plushies",
               "other_fonctionnality/lock",
               "other_fonctionnality/hdb"
