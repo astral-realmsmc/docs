@@ -178,6 +178,7 @@
           {
             "group": "Autres fonctionnalités",
             "pages": [
+              "other_fonctionnality/crafts",
               "other_fonctionnality/scrolls",
               "other_fonctionnality/vote",
               "other_fonctionnality/pets",
