@@ -172,6 +172,18 @@
           }
         ]
       },
+            {
+        "tab": "Évènements",
+        "groups": [
+          {
+            "group": "Évènements",
+            "pages": [
+              "events/voteparty",
+              "events/encheres"
+            ]
+          }
+        ]
+      },
       {
         "tab": "Autres fonctionnalités",
         "groups": [
