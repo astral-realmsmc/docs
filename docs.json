@@ -204,7 +204,8 @@
               "other_fonctionnality/lock",
               "other_fonctionnality/hdb",
               "other_fonctionnality/crafts",
-              "other_fonctionnality/parrainages"
+              "other_fonctionnality/parrainages",
+              "other_fonctionnality/spawners"
             ]
           }
         ]
