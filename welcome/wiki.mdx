@@ -4,7 +4,7 @@ description: "Guide complet pour contribuer au wiki d'Astral Realms"
 icon: "book"
 ---
 
-Bienvenue ! Nous sommes ravis que vous souhaitiez contribuer au wiki d'Astral Realms. Ce guide vous accompagnera pas à pas, même si vous n'avez jamais utilisé Git ou VSCode.
+Bienvenue ! Nous sommes ravis que vous souhaitiez contribuer au wiki d'Astral Realms. Ce guide vous accompagnera pas à pas, même si vous n'avez jamais utilisé Gitkraken ou VSCode.
 
 <Callout type="info">
     <strong>Vous n'avez besoin d'aucune expérience préalable !</strong> Ce guide est conçu pour les débutants complets.
@@ -18,61 +18,48 @@ Avant de commencer, vous aurez besoin de :
 
 <CardGroup cols={2}>
     <Card title="Un compte GitHub" icon="github">
-        <p>Si vous n'en avez pas encore, créez-en un gratuitement sur <a href="https://github.com/signup"
-                                                                         target="_blank">github.com</a></p>
+        <p>Si vous n'en avez pas encore, créez-en un gratuitement sur <a href="https://github.com/signup"target="_blank">github.com</a></p>
     </Card>
 
-    <Card title="Un ordinateur" icon="laptop">
-        <p>Windows, macOS ou Linux — ça fonctionne sur tous les systèmes !</p>
+    <Card title="Installer Nodejs" icon="laptop">
+        <p>Installez l'application créez-en un gratuitement sur <a href="
+https://nodejs.org/en"target="_blank">nodejs.org</a></p>
+    </Card>
+
+</CardGroup>
+
+<CardGroup cols={2}>
+    <Card title="Installer VSCode" icon="github">
+        <p>Installez l'application créez-en un gratuitement sur <a href="
+https://code.visualstudio.com/"target="_blank">code.visualstudio.com</a></p>
+    </Card>
+
+    <Card title="Installer Gitkraken" icon="laptop">
+        <p>Installez l'application créez-en un gratuitement sur <a href="
+https://www.gitkraken.com/"target="_blank">www.gitkraken.com</a></p>
     </Card>
 </CardGroup>
 
 ---
 
-## Étape 1 : Installer Git
+<Danger>
+Avant de pouvoir commencer à suivre le tutoriel, vous devez d'abord faire un ticket sur le discord pour nous transmettre votre pseudo GitHub afin que nous puissions vous ajouter dans l'équipe.
+</Danger> 
 
-Git est l'outil qui permet de gérer les versions de fichiers.
+## Étape 1 : Installer Mint
 
-<AccordionGroup>
-    <Accordion title="Windows" icon="monitor">
-        <ol>
-            <li>Allez sur <a href="https://git-scm.com/download/win" target="_blank">git-scm.com/download/win</a></li>
-            <li>Téléchargez et lancez l'installateur</li>
-            <li>Cliquez sur <strong>"Next"</strong> à chaque étape (les options par défaut sont parfaites)</li>
-            <li>Cliquez sur <strong>"Finish"</strong> à la fin</li>
-        </ol>
-    </Accordion>
+Mint est l'outil de développement que nous utilisons pour construire et prévisualiser le wiki. Il est très facile à installer.
+1. Ouvrez un terminal (sur Mac : Terminal, sur Windows : PowerShell ou Command Prompt)
+2. Tapez la commande suivante et appuyez sur Entrée :
+```bashnpm npm i -g mint
+   ```  
+3. Si vous êtes sur Windows, vous devrez peut-être ajuster la politique d'exécution pour permettre l'installation de Mint.
 
-    <Accordion title="macOS" icon="apple">
-        <ol>
-            <li>
-                Ouvrez le <strong>Terminal</strong> (appuyez sur <code>Cmd + Espace</code>, tapez "Terminal", puis
-                Entrée)
-            </li>
-            <li>Tapez <code>git --version</code> et appuyez sur Entrée</li>
-            <li>Si Git n'est pas installé, votre Mac vous proposera de l'installer automatiquement</li>
-            <li>Cliquez sur <strong>"Installer"</strong> et attendez la fin</li>
-        </ol>
-    </Accordion>
+Ouvrir PowerShell et tapez la commande suivante et appuyez sur Entrée :
+```bashnpm Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser   
+```  
 
-    <Accordion title="Linux (Ubuntu/Debian)" icon="terminal">
-        <ol>
-            <li>Ouvrez un terminal</li>
-            <li>Tapez : <code>sudo apt update && sudo apt install git</code></li>
-            <li>Entrez votre mot de passe si demandé</li>
-            <li>Appuyez sur <strong>Y</strong> si on vous demande de confirmer</li>
-        </ol>
-    </Accordion>
-</AccordionGroup>
-
-<Note>
-    Une fois installé, vérifiez que Git fonctionne en tapant <code>git --version</code> dans votre terminal. Vous
-    devriez voir un numéro de version s'afficher.
-</Note>
-
----
-
-## Étape 2 : Installer VSCode
+## Étape 2 : Installer les Extensions Mintlify pour VSCode
 
 VSCode est un éditeur de code gratuit et très puissant.
 
@@ -85,123 +72,35 @@ VSCode est un éditeur de code gratuit et très puissant.
     pour pouvoir ouvrir des dossiers directement depuis VSCode.
 </Callout>
 
----
+4. Une fois VSCode installé, ouvrez-le et allez dans l'onglet des extensions (icône de carré avec quatre carrés à l'intérieur)
+5. Recherchez "Mintlify" et installez les extensions suivantes :
 
-## Étape 3 : Configurer Git
+  <img src="/images/welcome/extensions_mintlify.png" alt="Mintlify extensions" className="mx-auto"/>
 
-Ouvrez un terminal et configurez Git avec votre identité GitHub :
 
-```bash
-git config --global user.name "Votre Nom"
-git config --global user.email "votre@email.com"
-```
+## Étape 3 : Clone le dépôt GitHub sur VSCode
 
-<Callout type="warning">
-    <strong>Important :</strong> Utilisez la même adresse email que celle de votre compte GitHub !
-</Callout>
 
----
+  <img src="/images/welcome/vscode.png" alt="VSCode" className="mx-auto"/>
+  
+1. Identifiez-vous sur VSCode avec votre compte GitHub.
+2. Cliquez sur "Clone Git Repository..." 
+Une liste s'ouvre, sélectionnez "astral-realmsmc/docs" et cliquez dessus.
+  <img src="/images/welcome/AR_repo.png" alt="AR repo" className="mx-auto"/>
 
-## Étape 4 : Forker le dépôt
+## Étape 4 : Clone le dépôt GitHub sur Gitkraken
 
-Le forking crée une copie personnelle du dépôt sur votre compte GitHub.
+1. Cliquez sur « GitHub.com ».
+2. Authentifiez-vous avec votre compte GitHub.
+3. Sélectionnez le dossier de destination du dépôt.
+4. Choisissez le dépôt docs de l'organisation Astral-RealmsMC.
+5. Cliquez sur « Clone the repo! » afin de cloner le dépôt sur votre ordinateur.
 
-<AccordionGroup>
-    <Accordion title="Créer le Fork" icon="git-fork">
-        <ol>
-            <li>Allez sur le dépôt du wiki d'Astral Realms</li>
-            <li>Cliquez sur le bouton <strong>"Fork"</strong> en haut à droite de la page</li>
-            <li>Attendez que GitHub crée votre fork</li>
-            <li>Vous serez redirigé vers votre propre copie du dépôt</li>
-        </ol>
-    </Accordion>
-</AccordionGroup>
 
----
 
-## Étape 5 : Cloner localement
+  <img src="/images/welcome/Gitkraken_clone.png" alt="Gitkraken" className="mx-auto"/>
 
-Le clonage télécharge une copie du dépôt sur votre ordinateur.
-
-<AccordionGroup>
-    <Accordion title="Récupérer l'URL" icon="link">
-        <ol>
-            <li>Sur votre fork, cliquez sur le bouton vert <strong>"Code"</strong></li>
-            <li>Assurez-vous que l'onglet <strong>"HTTPS"</strong> est sélectionné</li>
-            <li>Cliquez sur l'icône de copie à côté de l'URL</li>
-        </ol>
-    </Accordion>
-
-    <Accordion title="Cloner le dépôt" icon="download">
-        <ol>
-            <li>Ouvrez un terminal</li>
-            <li>
-                Naviguez vers l'endroit où vous voulez mettre le projet (optionnel) : <pre><code>cd chemin/vers/votre/dossier</code></pre>
-            </li>
-            <li>
-                Tapez :
-                <pre><code>git clone [l'URL-copiée]</code></pre>
-            </li>
-            <li>Appuyez sur Entrée et attendez le téléchargement</li>
-        </ol>
-    </Accordion>
-</AccordionGroup>
-
-<Note>
-    Vous devriez maintenant avoir un nouveau dossier contenant tous les fichiers du wiki.
-</Note>
-
----
-
-## Étape 6 : Ouvrir dans VSCode
-
-1. Ouvrez VSCode
-2. Cliquez sur **File** → **Open Folder...** (ou Fichier → Ouvrir un dossier...)
-3. Sélectionnez le dossier que vous venez de cloner
-4. Cliquez sur **Ouvrir**
-
-<Callout type="tip">
-    <strong>Raccourci :</strong> Dans le terminal, depuis le dossier du projet, vous pouvez taper <code>code
-    .</code> pour ouvrir le dossier directement dans VSCode.
-</Callout>
-
----
-
-## Étape 7 : Créer une branche
-
-Il est important de créer une nouvelle branche pour vos modifications.
-
-<AccordionGroup>
-    <Accordion title="Via VSCode" icon="code-2">
-        <ol>
-            <li>Cliquez sur la branche actuelle (en bas à gauche, généralement "main")</li>
-            <li>Dans la liste, cliquez sur <strong>"Create new branch..."</strong></li>
-            <li>
-                Donnez un nom à votre branche, par exemple :
-                <ul>
-                    <li><code>ma-contribution</code></li>
-                    <li><code>ajout-page-ville</code></li>
-                    <li><code>correction-orthographe</code></li>
-                </ul>
-            </li>
-            <li>Appuyez sur Entrée</li>
-        </ol>
-    </Accordion>
-
-    <Accordion title="Via le Terminal" icon="terminal">
-        <ol>
-            <li>
-                Dans le terminal, tapez :
-                <pre><code>git checkout -b ma-contribution</code></pre>
-            </li>
-            <li>Remplacez <code>ma-contribution</code> par le nom de votre choix</li>
-        </ol>
-    </Accordion>
-</AccordionGroup>
-
----
-
-## Étape 8 : Faire vos modifications
+## Étape 5 : Faire vos modifications
 
 Maintenant vous pouvez modifier les fichiers !
 
@@ -231,16 +130,12 @@ Maintenant vous pouvez modifier les fichiers !
 
 ---
 
-## Étape 9 : Prévisualiser vos changements
+## Étape 6 : Prévisualiser vos changements
 
 Avant de proposer vos changements, vous pouvez les voir en direct.
 
 1. Ouvrez un terminal dans VSCode (<code>Ctrl+`</code> ou <strong>Terminal</strong> → <strong>New Terminal</strong>)
-2. Installez Mintlify si ce n'est pas déjà fait :
-```bash
-npm i -g mint
-   ```
-3. Lancez le serveur de prévisualisation :
+2. Lancez le serveur de prévisualisation :
 ```bash
 mint dev
    ```
@@ -250,90 +145,26 @@ mint dev
     Vos changements apparaissent en temps réel à mesure que vous modifiez les fichiers !
 </Note>
 
+
+
+## Étape 7 : Publier ses modifaications sur le Wiki
+
+  <img src="/images/welcome/gitkraken_push.png" alt="Gitkraken" className="mx-auto"/>
+
+1. Cliquez sur le WIP
+2. Cliquez sur Stage All Changes
+3. Mettez un titre à votre push (exemple : Ajout de la page[...], corrections des fautes d'orthographe,...)
+4. Cliquez sur Stage Changes to Commit
+5. Cliquez sur Push (ça le mettra directement sur le wiki en ligne)
+6. Rectangle rouge : fichiers modifiés (possibilité de voir les modifications en cliquant sur chaque fichier)
+7. Rectangle bleu : historique des dernières modifications (possibilité de voir les changements en cliquant sur chaque commit)
+
+
+ <Tip>
+ Avant de faire des modifications, assurez-vous de faire un pull pour récupérer les dernières modifications du wiki. Cela évitera les conflits de fusion. Ouvrez gitkraken, cliquez sur le dépôt "docs", puis cliquez sur "Pull" pour synchroniser votre copie locale avec le dépôt distant.
+ </Tip>
 ---
 
-## Étape 10 : Sauvegarder vos changements
-
-Une fois satisfait de vos modifications, il faut les "commiter".
-
-<AccordionGroup>
-    <Accordion title="Via VSCode" icon="git-commit">
-        <ol>
-            <li>Cliquez sur l'icône de branche (source control) dans la barre latérale gauche</li>
-            <li>Vous verrez vos fichiers modifiés</li>
-            <li>Tapez un message de commit décrivant vos changements dans la box en haut</li>
-            <li>
-                Exemples de messages :
-                <ul>
-                    <li><code>"Ajout page sur la ville de Paris"</code></li>
-                    <li><code>"Correction typo dans les règles"</code></li>
-                    <li><code>"Mise à jour des farms autorisées"</code></li>
-                </ul>
-            </li>
-            <li>Cliquez sur le <strong>✓</strong> pour valider</li>
-        </ol>
-    </Accordion>
-
-    <Accordion title="Via le Terminal" icon="terminal">
-        <ol>
-            <li>
-                Tapez :
-                <pre><code>git add .</code></pre>
-            </li>
-            <li>
-                Puis tapez :
-                <pre><code>git commit -m "Votre message de commit"</code></pre>
-            </li>
-        </ol>
-    </Accordion>
-</AccordionGroup>
-
----
-
-## Étape 11 : Pousser vos changements
-
-Maintenant il faut envoyer vos changements vers votre fork sur GitHub.
-
-<AccordionGroup>
-    <Accordion title="Via VSCode" icon="upload-cloud">
-        <ol>
-            <li>Cliquez sur l'icône de branche en bas à gauche</li>
-            <li>Vous devriez voir <strong>"Publish Branch"</strong> ou <strong>"Sync Changes"</strong></li>
-            <li>Cliquez dessus pour envoyer vos changements</li>
-        </ol>
-    </Accordion>
-
-    <Accordion title="Via le Terminal" icon="terminal">
-        <ol>
-            <li>
-                Tapez :
-                <pre><code>git push origin ma-contribution</code></pre>
-            </li>
-            <li>Remplacez <code>ma-contribution</code> par le nom de votre branche</li>
-        </ol>
-    </Accordion>
-</AccordionGroup>
-
----
-
-## Étape 12 : Créer une Pull Request
-
-La Pull Request (PR) propose vos changements au dépôt original.
-
-1. Allez sur votre fork sur GitHub
-2. Vous devriez voir une bannière vous proposant de créer une Pull Request
-3. Cliquez sur <strong>"Compare & pull request"</strong> ou <strong>"Contribute"</strong>
-4. Remplissez le formulaire :
-- **Titre** : Une courte description de vos changements
-- **Description** : Plus de détails si nécessaire
-5. Cliquez sur <strong>"Create pull request"</strong>
-
-<Callout type="success">
-    <strong>Bravo !</strong> Votre contribution est maintenant soumise. L'équipe va la révoir et vous laissera des
-    commentaires si nécessaire.
-</Callout>
-
----
 
 ## Conseils et Bonnes Pratiques
 
