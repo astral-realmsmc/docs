@@ -46,18 +46,30 @@ https://www.gitkraken.com/"target="_blank">www.gitkraken.com</a></p>
 Avant de pouvoir commencer à suivre le tutoriel, vous devez d'abord faire un ticket sur le discord pour nous transmettre votre pseudo GitHub afin que nous puissions vous ajouter dans l'équipe.
 </Danger> 
 
+<Tip>
+Si jamais vous n'arrivez pas à faire une étape ou que vous avez besoin d'aide, n'hésitez pas à nous contacter sur Discord ! Nous sommes là pour vous aider.
+</Tip>
+
+---
+
 ## Étape 1 : Installer Mint
 
 Mint est l'outil de développement que nous utilisons pour construire et prévisualiser le wiki. Il est très facile à installer.
 1. Ouvrez un terminal (sur Mac : Terminal, sur Windows : PowerShell ou Command Prompt)
 2. Tapez la commande suivante et appuyez sur Entrée :
-```bashnpm npm i -g mint
-   ```  
+```bash
+npm i -g mint
+   ```
+
+
 3. Si vous êtes sur Windows, vous devrez peut-être ajuster la politique d'exécution pour permettre l'installation de Mint.
 
 Ouvrir PowerShell et tapez la commande suivante et appuyez sur Entrée :
-```bashnpm Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser   
-```  
+
+```bash
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+   ```
+---
 
 ## Étape 2 : Installer les Extensions Mintlify pour VSCode
 
@@ -75,18 +87,21 @@ VSCode est un éditeur de code gratuit et très puissant.
 4. Une fois VSCode installé, ouvrez-le et allez dans l'onglet des extensions (icône de carré avec quatre carrés à l'intérieur)
 5. Recherchez "Mintlify" et installez les extensions suivantes :
 
-  <img src="/images/welcome/extensions_mintlify.png" alt="Mintlify extensions" className="mx-auto"/>
+  <img src="/images/welcome/wiki/extensions_mintlify.png" alt="Mintlify extensions" className="mx-auto"/>
 
+---
 
 ## Étape 3 : Clone le dépôt GitHub sur VSCode
 
 
-  <img src="/images/welcome/vscode.png" alt="VSCode" className="mx-auto"/>
+  <img src="/images/welcome/wiki/vscode.png" alt="VSCode" className="mx-auto"/>
   
 1. Identifiez-vous sur VSCode avec votre compte GitHub.
 2. Cliquez sur "Clone Git Repository..." 
 Une liste s'ouvre, sélectionnez "astral-realmsmc/docs" et cliquez dessus.
-  <img src="/images/welcome/AR_repo.png" alt="AR repo" className="mx-auto"/>
+  <img src="/images/welcome/wiki/AR_repo.png" alt="AR repo" className="mx-auto"/>
+
+---
 
 ## Étape 4 : Clone le dépôt GitHub sur Gitkraken
 
@@ -98,7 +113,9 @@ Une liste s'ouvre, sélectionnez "astral-realmsmc/docs" et cliquez dessus.
 
 
 
-  <img src="/images/welcome/Gitkraken_clone.png" alt="Gitkraken" className="mx-auto"/>
+  <img src="/images/welcome/wiki/Gitkraken_clone.png" alt="Gitkraken" className="mx-auto"/>
+
+---
 
 ## Étape 5 : Faire vos modifications
 
@@ -145,11 +162,11 @@ mint dev
     Vos changements apparaissent en temps réel à mesure que vous modifiez les fichiers !
 </Note>
 
-
+---
 
 ## Étape 7 : Publier ses modifaications sur le Wiki
 
-  <img src="/images/welcome/gitkraken_push.png" alt="Gitkraken" className="mx-auto"/>
+  <img src="/images/welcome/wiki/gitkraken_push.png" alt="Gitkraken" className="mx-auto"/>
 
 - 🟥 Rectangle rouge  : fichiers modifiés (possibilité de voir les modifications en cliquant sur chaque fichier)
 - 🟦 Rectangle bleu  : historique des dernières modifications (possibilité de voir les changements en cliquant sur chaque commit)
