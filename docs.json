@@ -168,7 +168,8 @@
               "store/grades",
               "store/crates",
               "store/subscription",
-              "store/rewards"
+              "store/rewards",
+              "store/dailystore"
             ]
           }
         ]
