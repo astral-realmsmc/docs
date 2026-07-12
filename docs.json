@@ -210,7 +210,8 @@
               "other_fonctionnality/parrainages",
               "other_fonctionnality/spawners",
               "other_fonctionnality/classements",
-              "other_fonctionnality/fournitures"
+              "other_fonctionnality/fournitures",
+              "other_fonctionnality/voicechat"
             ]
           }
         ]
