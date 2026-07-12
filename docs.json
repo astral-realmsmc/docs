@@ -60,8 +60,10 @@
               "town/bank",
               "town/settings",
               "town/souszone",
-              "town/ase",
-              "town/commande"         
+              "town/commande",
+              "town/lock",
+              "town/ase",        
+              "town/hdb"
             ]
           }
         ]
@@ -115,7 +117,8 @@
               "economy/jobs",
               "economy/dailyshop",
               "economy/ah",
-              "economy/shops"
+              "economy/shops",
+              "economy/rewards"
             ]
           }
         ]
@@ -198,14 +201,11 @@
               "other_fonctionnality/pets",
               "other_fonctionnality/pass",
               "other_fonctionnality/tags",
-              "other_fonctionnality/rewards",
               "other_fonctionnality/commands",
               "other_fonctionnality/settings",
               "other_fonctionnality/mailbox",
               "other_fonctionnality/collections",
               "other_fonctionnality/plushies",
-              "other_fonctionnality/lock",
-              "other_fonctionnality/hdb",
               "other_fonctionnality/crafts",
               "other_fonctionnality/parrainages",
               "other_fonctionnality/spawners",
