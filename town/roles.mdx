@@ -68,12 +68,354 @@ Lorsque tu es dans le menu ``/v roles ``et que tu sélectionnes l'icône d’un 
   alt="Interface rôle page 1"
   className="mx-auto"/>
 
-| Catégorie | Permissions |
-|----------|------------|
-| **Interaction avec la ville** | *Rentrer dans la ville, Envoyer des annonces, Autoriser la téléportation, Créer un home, Définir le point de spawn, Changer le nom de la ville, Changer les paramètres de ville, Voir le journal d’activité* |
-| **Construction** | *Placer des blocs, Casser des blocs, Brûler des blocs, Casser des spawners, Planter des cultures, Récolter des cultures, Récolte des cultures au clic droit, Bêcher le sol, Tondre des moutons, Placer des meubles / peluches, Casser des meubles / peluches* |
-| **Items & interactions** | *Ramasser des items, Jeter des items, Interagir, Utiliser le debug stick, Utiliser des portes, Utiliser des conteneurs, Utiliser des trappes, Utiliser de la redstone, Utiliser des enclumes, Utiliser des fours, Utiliser des tables de craft, Utiliser des tables d’enchantement, Utiliser des boutons, Utiliser des leviers, Utiliser des cadres à objet, Éditer une pancarte* |
-| **Véhicules & déplacements** | *Poser des véhicules, Utiliser des véhicules, Utiliser des élytres, Utiliser des perles de l’Ender, Utiliser un projectile, Jeter des potions, Utiliser les laisses* |
-| **Combat & PvE/PvP** | *Tuer des joueurs, Tuer des animaux, Tuer des monstres* |
-| **Gestion de la ville** | *Inviter des joueurs, Exclure des joueurs, Bannir des joueurs, Gérer les rôles, Assigner des rôles, Modifier des permissions, Claim, Unclaim, Gérer des sous-zones, Retirer de l’argent de la banque, Déposer de l’argent de la banque, Créer des boutiques joueurs, Utiliser les boutiques joueurs partagées,Créer un warp* |
-| **Commandes** | *Utiliser le chat de ville, Utiliser /ase, Utiliser la commande /top, Faire apparaître les familiers (/pets)* |
+<AccordionGroup>
+<Accordion title="🏘️ Interaction avec la ville">
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/dirt_path.png" width="32" />
+  <span>**Rentrer dans la ville** : permet de pénétrer dans la ville.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/bell.png" width="32" />
+  <span>**Envoyer des annonces** : permet d'envoyer des annonces à tous les membres de la ville.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/ender_pearl.png" width="32" />
+  <span>**Autoriser la téléportation** : permet d'autoriser ou non la téléportation dans la ville.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/red_bed.png" width="32" />
+  <span>**Créer un home** : permet de définir un point de téléportation /home dans la ville.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/oak_door.png" width="32" />
+  <span>**Définir le point de spawn** : permet de définir le point d'apparition de la ville.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/name_tag.png" width="32" />
+  <span>**Changer le nom de la ville** : permet de modifier le nom de la ville.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/netherite_shovel.png" width="32" />
+  <span>**Changer les paramètres de ville** : permet de modifier les paramètres de la ville.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/command_block.png" width="32" />
+  <span>**Voir le journal d'activité** : permet de consulter le /v logs dans la ville.</span>
+</div>
+
+</Accordion>
+
+<Accordion title="⛏️ Construction">
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/stone.png" width="32" />
+  <span>**Placer des blocs** : permet de poser des blocs.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/diamond_pickaxe.png" width="32" />
+  <span>**Casser des blocs** : permet de détruire des blocs.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/flint_and_steel.png" width="32" />
+  <span>**Brûler des blocs** : permet de mettre le feu.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/spawner.png" width="32" />
+  <span>**Casser des spawners** : permet de détruire les spawners.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/wheat_seeds.png" width="32" />
+  <span>**Planter des cultures** : permet de planter des cultures.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/diamond_hoe.png" width="32" />
+  <span>**Récolter des cultures** : permet de récolter des cultures.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/sweet_berries.png" width="32" />
+  <span>**Récolte des cultures au clic droit** : permet de récolter des cultures via un clic droit.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/farmland.png" width="32" />
+  <span>**Bêcher le sol** : permet de bêcher le sol.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/shears.png" width="32" />
+  <span>**Tondre des moutons** : permet de tondre les moutons.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/oak_stairs.png" width="32" />
+  <span>**Placer des meubles / peluches** : permet de poser des meubles ou des peluches décoratives.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/oak_stairs.png" width="32" />
+  <span>**Casser des meubles / peluches** : permet de détruire des meubles ou des peluches décoratives.</span>
+</div>
+
+</Accordion>
+
+<Accordion title="🔧 Items & interactions">
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/coal.png" width="32" />
+  <span>**Ramasser des items** : permet de ramasser des objets au sol.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/firework_star.png" width="32" />
+  <span>**Jeter des items** : permet de jeter des objets au sol.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/stone_button.png" width="32" />
+  <span>**Interagir** : permet d'interagir avec les éléments de la ville (boutons, leviers, portes,...).</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/stick.png" width="32" />
+  <span>**Utiliser le debug stick** : permet d'utiliser le bâton de débogage.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/oak_door.png" width="32" />
+  <span>**Utiliser des portes** : permet d'ouvrir et fermer les portes.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/chest.png" width="32" />
+  <span>**Utiliser des conteneurs** : permet d'ouvrir coffres, barils et autres conteneurs.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/oak_trapdoor.png" width="32" />
+  <span>**Utiliser des trappes** : permet d'ouvrir et fermer les trappes.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/redstone.png" width="32" />
+  <span>**Utiliser de la redstone** : permet d'interagir avec la redstone.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/anvil.png" width="32" />
+  <span>**Utiliser des enclumes** : permet d'utiliser les enclumes.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/furnace.png" width="32" />
+  <span>**Utiliser des fours** : permet d'utiliser les fours.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/crafting_table.png" width="32" />
+  <span>**Utiliser des tables de craft** : permet d'utiliser les tables de craft.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/enchanting_table.png" width="32" />
+  <span>**Utiliser des tables d'enchantement** : permet d'utiliser les tables d'enchantement.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/stone_button.png" width="32" />
+  <span>**Utiliser des boutons** : permet d'utiliser les boutons.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/lever.png" width="32" />
+  <span>**Utiliser des leviers** : permet d'utiliser les leviers.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/item_frame.png" width="32" />
+  <span>**Utiliser des cadres** : permet d'interagir avec les cadres.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/oak_sign.png" width="32" />
+  <span>**Éditer une pancarte** : permet de modifier le texte d'une pancarte.</span>
+</div>
+
+</Accordion>
+
+<Accordion title="🚤 Véhicules & déplacements">
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/minecart.png" width="32" />
+  <span>**Poser des véhicules** : permet de poser des véhicules (minecart, bâteau...).</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/minecart.png" width="32" />
+  <span>**Utiliser des véhicules** : permet de monter et conduire des véhicules.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/elytra.png" width="32" />
+  <span>**Utiliser des élytres** : permet d'utiliser des élytres.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/end_portal_frame.png" width="32" />
+  <span>**Utiliser des perles de l'Ender** : permet de se téléporter avec des perles de l'Ender.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/wind_charge.png" width="32" />
+  <span>**Utiliser un projectile** : permet de lancer des projectiles (boules de neige, charge de vent...).</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/splash_potion.png" width="32" />
+  <span>**Jeter des potions** : permet de lancer des potions.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/lead.png" width="32" />
+  <span>**Utiliser les laisses** : permet d'attacher et détacher des animaux avec une laisse.</span>
+</div>
+
+</Accordion>
+
+<Accordion title="⚔️ Combat & PvE/PvP">
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/diamond_sword.png" width="32" />
+  <span>**Tuer des joueurs** : permet de tuer d'autres joueurs.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/pig_spawn_egg.png" width="32" />
+  <span>**Tuer des animaux** : permet de tuer des animaux.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/zombie_spawn_egg.png" width="32" />
+  <span>**Tuer des monstres** : permet de tuer des monstres.</span>
+</div>
+
+</Accordion>
+
+<Accordion title="👥 Gestion de la ville">
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/emerald.png" width="32" />
+  <span>**Inviter des joueurs** : permet d'inviter des joueurs à rejoindre la ville.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/diamond.png" width="32" />
+  <span>**Exclure des joueurs** : permet d'exclure un joueur hors de la ville.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/barrier.png" width="32" />
+  <span>**Bannir des joueurs** : permet de bannir un joueur de la ville.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/netherite_hoe.png" width="32" />
+  <span>**Gérer les rôles** : permet de créer, modifier ou supprimer des rôles.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/netherite_pickaxe.png" width="32" />
+  <span>**Assigner des rôles** : permet d'attribuer un rôle à un joueur.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/netherite_axe.png" width="32" />
+  <span>**Modifier des permissions** : permet de modifier les permissions associées à un rôle.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/grass_block.png" width="32" />
+  <span>**Claim** : permet de claim un chunk pour la ville.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/dirt.png" width="32" />
+  <span>**Unclaim** : permet d'unclaim un chunk revendiqué par la ville.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/oak_fence_gate.png" width="32" />
+  <span>**Gérer des sous-zones** : permet de créer et configurer des sous-zones dans la ville.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/gold_ingot.png" width="32" />
+  <span>**Retirer de l'argent de la banque** : permet de retirer de l'argent de la banque de la ville.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/gold_block.png" width="32" />
+  <span>**Déposer de l'argent de la banque** : permet de déposer de l'argent dans la banque de la ville.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/chest.png" width="32" />
+  <span>**Créer des boutiques joueurs** : permet de créer une boutique joueur.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/chest.png" width="32" />
+  <span>**Utiliser les boutiques joueurs partagées** : permet d'utiliser les boutiques joueurs partagées de la ville.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/oak_sign.png" width="32" />
+  <span>**Créer un warp** : permet de créer un warp (/vw).</span>
+</div>
+
+</Accordion>
+
+<Accordion title="💬 Commandes">
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/oak_sign.png" width="32" />
+  <span>**Utiliser le chat de ville** : permet d'écrire dans le chat réservé à la ville.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/flint.png" width="32" />
+  <span>**Utiliser /ase** : permet d'utiliser la commande /ase.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/nether_star.png" width="32" />
+  <span>**Utiliser la commande /top** : permet de se téléporter au point le plus haut.</span>
+</div>
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/bone.png" width="32" />
+  <span>**Faire apparaître les familiers (/pets)** : permet de faire apparaître ses familiers.</span>
+</div>
+
+
+<div style={{display: "flex", alignItems: "center", gap: "8px", margin: "8px 0"}}>
+  <img src="/images/images/feather.png" width="32" />
+  <span>**Vol (/fly)** : permet de voler.</span>
+</div>
+
+</Accordion>
+
+</AccordionGroup>
