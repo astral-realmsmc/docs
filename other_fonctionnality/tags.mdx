@@ -22,10 +22,32 @@ Le tag apparait après ton **[Rang](https://wiki.astralrealms.fr/ranks/ranks)** 
 
 **➜ Pour choisir ton tag, utilise la commande `/tags`** en jeu. *Clique* ensuite sur le **tag possédé** de ton choix.
 
-<img 
-  src="/images/other_fonctionnality/tags/tags_menu.png" 
-  alt="Menu de la commande /tags"
-/>
+
+
+<div className="carousel-css">
+  <input type="radio" name="exemple-carousel" id="exemple-radio-1" className="carousel-radio" defaultChecked />
+  <input type="radio" name="exemple-carousel" id="exemple-radio-2" className="carousel-radio" />
+
+  <div className="carousel-track">
+
+    <div className="carousel-slide-item">
+      <img
+        src="/images/other_fonctionnality/tags/page_1.png"
+        alt="Page 1 du menu de permissions"
+      />
+      <label htmlFor="exemple-radio-2" className="carousel-arrow next" aria-label="Suivant">›</label>
+    </div>
+
+    <div className="carousel-slide-item">
+      <label htmlFor="exemple-radio-1" className="carousel-arrow prev" aria-label="Précédent">‹</label>
+      <img
+        src="/images/other_fonctionnality/tags/page_2.png"
+        alt="Page 2 du menu de permissions"
+      />
+    </div>
+  </div>
+</div>
+
 
 📋 Dans ce menu, tu peux consulter la **liste complète** des tags existant sur le serveur. En *passant ton curseur* sur chaque étiquette, tu pourras **obtenir des informations** :
 - Le **nom du tag**

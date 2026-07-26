@@ -64,26 +64,66 @@ Contrairement aux quêtes journalières, les quêtes hebdomadaires donnent **3.0
 - Plusieurs autres **objets rares**
 - Et surtout des [clés](https://wiki.astralrealms.fr/store/crates) : plusieurs **Clés du Nether** et une **Clé de l'Ender**.
 
-<img 
-  src="/images/other_fonctionnality/pass/pass_palier1.png" 
-  alt="Page 1 des paliers de récompense du /pass"
-/>
-<img 
-  src="/images/other_fonctionnality/pass/pass_palier2.png" 
-  alt="Page 2 des paliers de récompense du /pass"
-/>
-<img 
-  src="/images/other_fonctionnality/pass/pass_palier3.png" 
-  alt="Page 3 des paliers de récompense du /pass"
-/>
-<img 
-  src="/images/other_fonctionnality/pass/pass_palier4.png" 
-  alt="Page 4 des paliers de récompense du /pass"
-/>
-<img 
-  src="/images/other_fonctionnality/pass/pass_palier5.png" 
-  alt="Page 5 des paliers de récompense du /pass"
-/>
+
+<div className="carousel-css">
+  <input type="radio" name="scrolls-carousel" id="scroll-radio-1" className="carousel-radio" defaultChecked />
+  <input type="radio" name="scrolls-carousel" id="scroll-radio-2" className="carousel-radio" />
+  <input type="radio" name="scrolls-carousel" id="scroll-radio-3" className="carousel-radio" />
+  <input type="radio" name="scrolls-carousel" id="scroll-radio-4" className="carousel-radio" />
+  <input type="radio" name="scrolls-carousel" id="scroll-radio-5" className="carousel-radio" />
+
+  <div className="carousel-track">
+    <div className="carousel-slide-item">
+      <img 
+      src="/images/other_fonctionnality/pass/pass_palier1.png" 
+     alt="Page 1 des paliers de récompense du /pass"
+    />
+    <p className="carousel-caption">Page <Badge stroke color="gray">𝟏</Badge> des paliers de récompense du /pass</p>
+      <label htmlFor="scroll-radio-2" className="carousel-arrow next" aria-label="Suivant">›</label>
+    </div>
+
+    <div className="carousel-slide-item">
+      <label htmlFor="scroll-radio-1" className="carousel-arrow prev" aria-label="Précédent">‹</label>
+      <img 
+      src="/images/other_fonctionnality/pass/pass_palier2.png" 
+      alt="Page 2 des paliers de récompense du /pass"
+      />
+      <p className="carousel-caption">Page <Badge stroke color="gray">𝟐</Badge> des paliers de récompense du /pass</p>
+      <label htmlFor="scroll-radio-3" className="carousel-arrow next" aria-label="Suivant">›</label>
+    </div>
+
+    <div className="carousel-slide-item">
+      <label htmlFor="scroll-radio-2" className="carousel-arrow prev" aria-label="Précédent">‹</label>
+      <img 
+      src="/images/other_fonctionnality/pass/pass_palier3.png" 
+      alt="Page 3 des paliers de récompense du /pass"
+      />
+      <p className="carousel-caption">Page <Badge stroke color="gray">𝟑</Badge> des paliers de récompense du /pass</p>
+      <label htmlFor="scroll-radio-4" className="carousel-arrow next" aria-label="Suivant">›</label>
+    </div>
+
+    <div className="carousel-slide-item">
+      <label htmlFor="scroll-radio-3" className="carousel-arrow prev" aria-label="Précédent">‹</label>
+      
+    <img 
+    src="/images/other_fonctionnality/pass/pass_palier4.png" 
+    alt="Page 4 des paliers de récompense du /pass"
+    />
+      <p className="carousel-caption">Page <Badge stroke color="gray">𝟒</Badge> des paliers de récompense du /pass</p>
+      <label htmlFor="scroll-radio-5" className="carousel-arrow next" aria-label="Suivant">›</label>
+    </div>
+
+    <div className="carousel-slide-item">
+      <label htmlFor="scroll-radio-4" className="carousel-arrow prev" aria-label="Précédent">‹</label>
+      <img 
+      src="/images/other_fonctionnality/pass/pass_palier5.png" 
+      alt="Page 5 des paliers de récompense du /pass"
+      />
+      <p className="carousel-caption">Page <Badge stroke color="gray">𝟓</Badge> des paliers de récompense du /pass</p>
+    </div>
+  </div>
+</div>
+
 
 🔀 **Pour chaque palier de récompense** du Farm Pass, il existe **deux niveaux de récompenses** :
 - Les récompenses **gratuites, accessibles à tous les joueurs**.

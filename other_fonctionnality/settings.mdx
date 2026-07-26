@@ -8,12 +8,29 @@ icon: "cog"
 
 **➜** Pour **accéder à ces paramètres**, utilise la commande `/parametres` ou `/settings` en jeu.
 
-<img src="/images/other_fonctionnality/settings/settings_menu1.png" 
-alt="Première page du menu de la commande /parametres"/>
+<div className="carousel-css">
+  <input type="radio" name="exemple-carousel" id="exemple-radio-1" className="carousel-radio" defaultChecked />
+  <input type="radio" name="exemple-carousel" id="exemple-radio-2" className="carousel-radio" />
 
-<img 
-src="/images/other_fonctionnality/settings/settings_menu2.png" 
-alt="Seconde page du menu de la commande /parametres"/>
+  <div className="carousel-track">
+
+    <div className="carousel-slide-item">
+      <img
+        src="/images/ville/role/ville_permissions_1.png"
+        alt="Description de l'image 1"
+      />
+      <label htmlFor="exemple-radio-2" className="carousel-arrow next" aria-label="Suivant">›</label>
+    </div>
+
+    <div className="carousel-slide-item">
+      <label htmlFor="exemple-radio-1" className="carousel-arrow prev" aria-label="Précédent">‹</label>
+      <img
+        src="/images/ville/role/ville_permissions_2.png"
+        alt="Description de l'image 2"
+      />
+    </div>
+  </div>
+</div>
 
 **➜** *Clique* simplement sur les boutons pour 🟩**Activer**🟩 ou 🟥**Désactiver**🟥 un paramètre.
 

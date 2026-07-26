@@ -63,11 +63,29 @@ Ouvre le menu des rôles avec la commande ``/v roles``
 
 Lorsque tu es dans le menu ``/v roles ``et que tu sélectionnes l'icône d’un rôle, tu peux configurer les permissions associées à ce rôle pour les joueurs qui le possèdent. 
 
-<img 
-  src="/images/ville/role/permission_rôle_page1.png" 
-  alt="Interface rôle page 1"
-  className="mx-auto"/>
+<div className="carousel-css">
+  <input type="radio" name="exemple-carousel" id="exemple-radio-1" className="carousel-radio" defaultChecked />
+  <input type="radio" name="exemple-carousel" id="exemple-radio-2" className="carousel-radio" />
 
+  <div className="carousel-track">
+
+    <div className="carousel-slide-item">
+      <img
+        src="/images/ville/role/ville_permissions_1.png"
+        alt="Page 1 du menu de permissions"
+      />
+      <label htmlFor="exemple-radio-2" className="carousel-arrow next" aria-label="Suivant">›</label>
+    </div>
+
+    <div className="carousel-slide-item">
+      <label htmlFor="exemple-radio-1" className="carousel-arrow prev" aria-label="Précédent">‹</label>
+      <img
+        src="/images/ville/role/ville_permissions_2.png"
+        alt="Page 2 du menu de permissions"
+      />
+    </div>
+  </div>
+</div>
 
 <Danger>Nécessite la permission "Modifier des permissions".</Danger> 
 

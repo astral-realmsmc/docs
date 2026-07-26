@@ -118,39 +118,62 @@ Il est enfin possible d'en acheter **dans l'[Hôtel des Ventes](https://wiki.ast
 
 Compléter un parchemin octroie des **récompenses**. Utilise la **commande `/parchemin`** en jeu pour voir la liste des récompenses possibles par rareté de parchemin.
 
-- ⚪ **Récompenses du Parchemin Commun** ⚪
+<div className="carousel-css">
+  <input type="radio" name="scrolls-carousel" id="scroll-radio-1" className="carousel-radio" defaultChecked />
+  <input type="radio" name="scrolls-carousel" id="scroll-radio-2" className="carousel-radio" />
+  <input type="radio" name="scrolls-carousel" id="scroll-radio-3" className="carousel-radio" />
+  <input type="radio" name="scrolls-carousel" id="scroll-radio-4" className="carousel-radio" />
+  <input type="radio" name="scrolls-carousel" id="scroll-radio-5" className="carousel-radio" />
 
-<img 
-  src="/images/other_fonctionnality/scrolls/scrolls_commun.png" 
-  alt="Récompenses du parchemin commun"
-/>
+  <div className="carousel-track">
+    <div className="carousel-slide-item">
+      <img
+        src="/images/other_fonctionnality/scrolls/scrolls_commun.png"
+        alt="Récompenses du parchemin commun"
+      />
+      <p className="carousel-caption">⚪ Récompenses du Parchemin Commun ⚪</p>
+      <label htmlFor="scroll-radio-2" className="carousel-arrow next" aria-label="Suivant">›</label>
+    </div>
 
-- 🟢 **Récompenses du Parchemin Inhabituel** 🟢
+    <div className="carousel-slide-item">
+      <label htmlFor="scroll-radio-1" className="carousel-arrow prev" aria-label="Précédent">‹</label>
+      <img
+        src="/images/other_fonctionnality/scrolls/scrolls_inhabituel.png"
+        alt="Récompenses du parchemin inhabituel"
+      />
+      <p className="carousel-caption">🟢 Récompenses du Parchemin Inhabituel 🟢</p>
+      <label htmlFor="scroll-radio-3" className="carousel-arrow next" aria-label="Suivant">›</label>
+    </div>
 
-<img 
-  src="/images/other_fonctionnality/scrolls/scrolls_inhabituel.png" 
-  alt="Récompenses du parchemin inhabituel"
-/>
+    <div className="carousel-slide-item">
+      <label htmlFor="scroll-radio-2" className="carousel-arrow prev" aria-label="Précédent">‹</label>
+      <img
+        src="/images/other_fonctionnality/scrolls/scrolls_rare.png"
+        alt="Récompenses du parchemin rare"
+      />
+      <p className="carousel-caption">🔵 Récompenses du Parchemin Rare 🔵</p>
+      <label htmlFor="scroll-radio-4" className="carousel-arrow next" aria-label="Suivant">›</label>
+    </div>
 
-- 🔵 **Récompenses du Parchemin Rare** 🔵
+    <div className="carousel-slide-item">
+      <label htmlFor="scroll-radio-3" className="carousel-arrow prev" aria-label="Précédent">‹</label>
+      <img
+        src="/images/other_fonctionnality/scrolls/scrolls_epique.png"
+        alt="Récompenses du parchemin épique"
+      />
+      <p className="carousel-caption">🟣 Récompenses du Parchemin Épique 🟣</p>
+      <label htmlFor="scroll-radio-5" className="carousel-arrow next" aria-label="Suivant">›</label>
+    </div>
 
-<img 
-  src="/images/other_fonctionnality/scrolls/scrolls_rare.png" 
-  alt="Récompenses du parchemin rare"
-/>
-
-- 🟣 **Récompenses du Parchemin Épique** 🟣
-
-<img 
-  src="/images/other_fonctionnality/scrolls/scrolls_epique.png" 
-  alt="Récompenses du parchemin épique"
-/>
-
-- 🟡 **Récompenses du Parchemin Légendaire** 🟡
-
-<img 
-  src="/images/other_fonctionnality/scrolls/scrolls_legendaire.png" 
-  alt="Récompenses du parchemin légendaire"
-/>
+    <div className="carousel-slide-item">
+      <label htmlFor="scroll-radio-4" className="carousel-arrow prev" aria-label="Précédent">‹</label>
+      <img
+        src="/images/other_fonctionnality/scrolls/scrolls_legendaire.png"
+        alt="Récompenses du parchemin légendaire"
+      />
+      <p className="carousel-caption">🟡 Récompenses du Parchemin Légendaire 🟡</p>
+    </div>
+  </div>
+</div>
 
 **📜 Bons parchemins à toi !**
