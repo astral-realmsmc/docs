@@ -6,6 +6,27 @@ img.mc-asset {
   image-rendering: pixelated;
 }
 
+/* Utilisé page marais_tropical */
+.item-icon {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+/* Utilisé page marais_tropical */
+.card:has(> img.item-icon),
+.card:has(> p > img.item-icon) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;           
+  aspect-ratio: 1 / 1;     
+  max-width: 140px;         
+  margin: 0 auto;
+}
+
 /* ===== Carrousel (radio-based, sans ancre) ===== */
 .carousel-css {
   position: relative;
@@ -98,4 +119,5 @@ img.mc-asset {
 .carousel-slide-item p {
   margin: 0;
 }
+
 

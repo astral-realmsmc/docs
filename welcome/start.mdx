@@ -5,27 +5,36 @@ icon: "info"
 ---
 
 
+ 
+<CardGroup cols={3}>
+  <Card title="Règlement" icon="scale-balanced" href="https://wiki.astralrealms.fr/welcome/rules/rules">
+    À consulter avant de jouer pour éviter toute sanction inutile.
+  </Card>
+  <Card title="Discord" icon="discord" href="https://discord.gg/astralrealms">
+    Rejoins-nous sur Discord pour suivre les actualités.
+  </Card>
+  <Card title="Wiki" icon="book-open" href="https://wiki.astralrealms.fr">
+    Tu veux éviter les info chat ? N'hésite pas à lire le wiki.
+  </Card>
+</CardGroup>
+<Info>
+  Le serveur est ouvert depuis le **20 décembre 2025** et accepte les versions **1.21.11 à 26.2**. La version **26.2** reste idéale pour venir jouer.
+</Info>
 
-**Bienvenue à toi, et merci d’avoir rejoint AstralRealms !**
-
-Pour **bien débuter**, pense à **consulter le règlement** afin d’éviter toute **sanction inutile**. N’hésite pas non plus à **poser tes questions**, que ce soit en jeu ou sur le **Discord (discord.gg/astralrealms)**.
-
-Tu trouveras la plupart des **informations utiles sur le wiki**, mais si certains points **restent flous**, nous serons là pour **t'éclairer**.
-
-Enfin, sache que le serveur est **ouvert** depuis le **20 décembre 2025** et qu’il est accessible pour la version **1.21.11** jusqu'à la **26.2**. *(Il faut venir idéalement en 26.2)*
-
-Afin de **bien débuter**, tu pourras voir le **tutoriel étape par étape** avec des **informations complémentaires**.
-
-
-
-Lorsque tu **rejoins le serveur**, tu reçois un **kit de départ**. Les outils te seront utiles pour **réaliser le tutoriel**.
+Pour bien démarrer, suis le **tutoriel étape par étape** ci-dessous : tu y trouveras toutes les informations complémentaires dont tu as besoin. Il est également disponible directement en jeu, sur le **scoreboard à droite de ton écran**.\
+  Dès ta connexion, tu reçois un **kit de départ** — les outils qu'il contient te seront utiles pour réaliser le tutoriel.
+ 
 
 <img 
   src="/images/welcome/tuto/kit_depart.png" 
-  alt="Tuto 1/15"
+  alt="kit"
   className="mx-auto"/>
-<Steps>
-<Step title=" 🧭 Menu">
+
+<AccordionGroup>
+<Accordion icon="list-check" title="Tutoriel étape par étape">
+
+<AccordionGroup>
+<Accordion icon="compass" title="Menu">
 
 Tu verras des **flèches bleues** qui t'indiqueront où se situe **Mage Hic**, je t'invite à les **suivre**. 
 Mage Hic permet d'ouvrir le ``/menu``.
@@ -34,8 +43,8 @@ Mage Hic permet d'ouvrir le ``/menu``.
   alt="Tuto 1/15"
   className="mx-auto"/>
 
-</Step>
-<Step title="🎛️ Menu des dimensions">
+</Accordion>
+<Accordion icon="sliders" title="Menu des dimensions">
 
 **Lavan Ture** t'ouvre le menu ``/dimensions``. Tu devras te rendre en **ressource** afin de complèter la quête.
 <img 
@@ -46,28 +55,29 @@ Mage Hic permet d'ouvrir le ``/menu``.
 <Note>
     Il existe deux mondes ressources et toutes les semaines les deux mondes ressources sont reset.
 </Note>
-</Step>
 
-<Step title="🎛️ Commande de téléportation aléatoire">
+</Accordion>
+
+<Accordion icon="sliders" title="Commande de téléportation aléatoire">
 
 Tu devras faire ``/rtp``. C'est une commande pour te **téléporter aléatoirement** dans le monde où tu te situes.\
 *Cette quête est faite automatiquement lorsque tu rejoins le monde ressource*
 <Note>
   La commande a un cooldown de 20 minutes. Le rtp est propre pour chaque monde.
 </Note>
-</Step>
+</Accordion>
 
-<Step title="🪓 Récolte du bois">
+<Accordion icon="axe" title="Récolte du bois">
 
 Avec la hache que tu as reçue au début, tu devras récolter 5 bûches de n'importe quel arbre.\
-En les récoltant, tu verras ton métier de [Bûcheron](https://wiki.astralrealms.fr/jobs/jobs) passer de niveau.
+En les récoltant, tu verras ton métier de [Bûcheron](https://astralrealms.fr) passer de niveau.
 <img 
   src="/images/welcome/tuto/tuto_4.png" 
   alt="Tuto 4/15"
   className="mx-auto"/>
   
-</Step>
-<Step title="🪓 Mission bûcheron">
+</Accordion>
+<Accordion icon="axe" title="Mission bûcheron">
 
 Avec les 12 bûches de chêne que tu viens d'obtenir, tu dois les déposer dans le ``/mission lumberjack``.\
 En faisant cela, tu progresses dans l'obtention du prochain rang. À chaque complétion de catégorie, tu reçois un parchemin. La rareté de celui-ci dépend du rang.
@@ -76,20 +86,20 @@ En faisant cela, tu progresses dans l'obtention du prochain rang. À chaque comp
   alt="Tuto 5/15"
   className="mx-auto"/>
   
-</Step>
+</Accordion>
 
-<Step title="⛏️ Pars miner du charbon">
+<Accordion icon="pickaxe" title="Pars miner du charbon">
 
 Tu dois miner 4 charbons dans le monde ressource.\
-En les récoltant, tu verras ton métier de [Mineur](https://wiki.astralrealms.fr/jobs/jobs) passer de niveau.
+En les récoltant, tu verras ton métier de [Mineur](https://astralrealms.fr) passer de niveau.
 <img 
   src="/images/welcome/tuto/tuto_6.png" 
   alt="Tuto 6/15"
   className="mx-auto"/>
   
-</Step>
+</Accordion>
 
-<Step title="⛏️ Mission mineur">
+<Accordion icon="pickaxe" title="Mission mineur">
 
 Avec les 8 charbons que tu viens d'obtenir, tu dois les déposer dans le ``/mission miner``. 
 <img 
@@ -97,9 +107,9 @@ Avec les 8 charbons que tu viens d'obtenir, tu dois les déposer dans le ``/miss
   alt="Tuto 7/15"
   className="mx-auto"/>
   
-</Step>
+</Accordion>
 
-<Step title="🏗️ Le monde construction">
+<Accordion icon="building" title="Le monde construction">
 
 Rends toi maintenant dans le monde construction. Tu peux passer par le ``/dimensions`` ou bien ``/construction``directement.
 <img 
@@ -107,24 +117,18 @@ Rends toi maintenant dans le monde construction. Tu peux passer par le ``/dimens
   alt="Tuto 8/15"
   className="mx-auto"/>
   
-</Step>
+</Accordion>
 
-<Step title="🏙️ Crée ta ville ou rejoins en une">
+<Accordion icon="city" title="Crée ta ville ou rejoins en une">
 
 Tu as deux options : soit tu souhaites créer ta propre ville, soit tu peux en rejoindre une.
-```
 /ville create [Nom de la ville]
-```
-
-```
-/ville join [Nom de la ville]
-```
-<img 
+/ville join [Nom de la ville]<img 
   src="/images/welcome/tuto/tuto_9.png" 
   alt="Tuto 9/15"
   className="mx-auto"/>
-</Step>
-<Step title="🧭 Navigue entre les dimensions">
+</Accordion>
+<Accordion icon="compass" title="Navigue entre les dimensions">
 
 Rends toi maintenant dans le monde construction. Tu peux passer par le ``/dimensions`` ou bien ``/construction``directement.
 <img 
@@ -132,19 +136,18 @@ Rends toi maintenant dans le monde construction. Tu peux passer par le ``/dimens
   alt="Tuto 10/15"
   className="mx-auto"/>
   
-</Step>
+</Accordion>
 
-<Step title="🧑‍🌾 Plante des graines de blé">
+<Accordion icon="wheat" title="Plante des graines de blé">
 
 Prends la houe qui t'a été donnée et bêche la terre. Plante ensuite 2 graines de blé.
 <img 
   src="/images/welcome/tuto/tuto_11.png" 
   alt="Tuto 11/15"
   className="mx-auto"/>
-  
-</Step>
+</Accordion>
 
-<Step title="🎣 Pars pêcher">
+<Accordion icon="fish" title="Pars pêche">
 
 Prends la canne à pêche qui t'a été donnée, et va pêcher 2 morues. (Si tu n'as pas de coin d'eau là où tu as crée ta ville, rends toi au spawn et pêche à l'étang)
 <img 
@@ -153,8 +156,8 @@ Prends la canne à pêche qui t'a été donnée, et va pêcher 2 morues. (Si tu 
   className="mx-auto"/>
   
 
-</Step>
-<Step title="🐷 Tue des cochons">
+</Accordion>
+<Accordion icon="pig" title="Tue des cochons">
 
 Avec le spawner à cochon que tu viens d'avoir, place le et tue 2 cochons.
 <img 
@@ -162,9 +165,9 @@ Avec le spawner à cochon que tu viens d'avoir, place le et tue 2 cochons.
   alt="Tuto 13/15"
   className="mx-auto"/>
   
-</Step>
+</Accordion>
 
-<Step title=" 🗒️Deviens Roturier">
+<Accordion icon="scroll" title="Deviens Roturier">
 
 Avec toutes les **ressources que tu as récupérées**, tu peux **devenir roturier** ! Fais ``/mission`` puis clique sur les **cadenas** en bas **"Augmentez votre rang"**.
 <img 
@@ -180,21 +183,43 @@ Lorsque tu atteins le **prochain rang**, un **message** est **affiché** dans le
   className="mx-auto"/>
   
 
-</Step>
+</Accordion>
 
-<Step title="🧰 Récompenses de métier">
+<Accordion icon="toolbox" title="Récompenses de métier">
 
 Durant tout le tutoriel, tu as augmenté de niveau dans les métiers. Fais ``/jobs claim`` pour les récupérer.
 <img 
   src="/images/welcome/tuto/tuto__15.png" 
   alt="Tuto 15/15"
   className="mx-auto"/>
-  
-</Step>
-</Steps>
+
+</Accordion>
+</AccordionGroup>
 
 **Bravo à toi**, tu as **fini le tutoriel**! Tu as toutes les **cartes en main** pour devenir le **meilleur joueur** du serveur.
 <img 
   src="/images/welcome/tuto/tuto_fin.png" 
   alt="Fin tuto"
   className="mx-auto"/>
+</Accordion>
+</AccordionGroup>
+
+
+ 
+<h4>Voici les pages du wiki les plus utiles pour la suite de ton aventure</h4>
+ 
+<CardGroup cols={2}>
+  <Card title="Les métiers" icon="hammer" href="https://wiki.astralrealms.fr/jobs/jobs">
+    Détails des métiers et de leurs récompenses.
+  </Card>
+  <Card title="Les rangs" icon="ranking-star" href="https://wiki.astralrealms.fr/ranks/ranks">
+    Sois le premier Divin.
+  </Card>
+  <Card title="Les villes" icon="city" href="https://wiki.astralrealms.fr/town/introduction">
+    Créer ou rejoins une ville avec tes amis.
+  </Card>
+  <Card title="La TOUUUR" icon="tower-observation" href="https://wiki.astralrealms.fr/tower/introduction">
+    Et si tu venais découvrir la TOUUUUR ?
+  </Card>
+</CardGroup>
+ 
