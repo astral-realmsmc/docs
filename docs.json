@@ -12,6 +12,7 @@
     "tabs": [
       {
         "tab": "Accueil",
+        "icon": "house",
         "groups": [
           {
             "group": "Demarrage",
@@ -37,23 +38,21 @@
         ]
       },
       {
-        "tab": "Dimensions",
-        "groups": [
+        "tab": "Univers",
+        "icon": "earth-europe",
+        "menu": [
           {
-            "group": "Dimensions",
+            "item": "Dimensions",
+            "icon": "earth-americas",
             "pages": [
               "world/spawn",
               "world/world",
               "world/marais_tropical"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Villes",
-        "groups": [
+          },
           {
-            "group": "Villes",
+            "item": "Villes",
+            "icon": "city",
             "pages": [
               "town/introduction",
               "town/roles",
@@ -63,42 +62,63 @@
               "town/souszone",
               "town/commande",
               "town/lock",
-              "town/ase",        
+              "town/ase",
               "town/hdb"
+            ]
+          },
+          {
+            "item": "Donjons",
+            "icon": "dungeon",
+            "pages": [
+              "dungeon/introduction"
+            ]
+          },
+          {
+            "item": "Tour dimensionnelle",
+            "icon": "tower-observation",
+            "pages": [
+              "tower/introduction",
+              "tower/progress",
+              "tower/mobs",
+              "tower/artifacts"
             ]
           }
         ]
       },
       {
-        "tab": "Métiers",
-        "groups": [
+        "tab": "Progression",
+        "icon": "chart-line",
+        "menu": [
           {
-            "group": "Métiers",
+            "item": "Classes",
+            "icon": "hat-wizard",
+            "pages": [
+              "class/introduction",
+              "class/firemage",
+              "class/knight",
+              "class/priest"
+            ]
+          },
+          {
+            "item": "Métiers",
+            "icon": "hammer",
             "pages": [
               "jobs/jobs",
               "jobs/rewards",
               "jobs/action"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Rangs",
-        "groups": [
+          },
           {
-            "group": "Rangs",
+            "item": "Rangs",
+            "icon": "medal",
             "pages": [
               "ranks/ranks",
               "ranks/avantages"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Items customs",
-        "groups": [
+          },
           {
-            "group": "Items customs",
+            "item": "Items customs",
+            "icon": "wand-magic-sparkles",
             "pages": [
               "items/introduction",
               "items/items",
@@ -110,9 +130,11 @@
       },
       {
         "tab": "Économie",
-        "groups": [
+        "icon": "coins",
+        "menu": [
           {
-            "group": "Économie",
+            "item": "Économie",
+            "icon": "money-bill-trend-up",
             "pages": [
               "economy/introduction",
               "economy/jobs",
@@ -121,53 +143,10 @@
               "economy/shops",
               "economy/rewards"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Tour dimensionnelle",
-        "groups": [
+          },
           {
-            "group": "Tour dimensionnelle",
-            "pages": [
-              "tower/introduction",
-              "tower/progress",
-              "tower/mobs",
-              "tower/artifacts"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Donjons",
-        "groups": [
-          {
-            "group": "Donjons",
-            "pages": [
-              "dungeon/introduction"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Classes",
-        "groups": [
-          {
-            "group": "Classes",
-            "pages": [
-              "class/introduction",
-              "class/firemage",
-              "class/knight",
-              "class/priest"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Boutique",
-        "groups": [
-          {
-            "group": "Boutique",
+            "item": "Boutique",
+            "icon": "cart-shopping",
             "pages": [
               "store/introduction",
               "store/grades",
@@ -176,14 +155,10 @@
               "store/rewards",
               "store/dailystore"
             ]
-          }
-        ]
-      },
-            {
-        "tab": "Évènements",
-        "groups": [
+          },
           {
-            "group": "Évènements",
+            "item": "Évènements",
+            "icon": "calendar-star",
             "pages": [
               "events/voteparty",
               "events/encheres"
@@ -193,6 +168,7 @@
       },
       {
         "tab": "Autres fonctionnalités",
+        "icon": "puzzle-piece",
         "groups": [
           {
             "group": "Autres fonctionnalités",
