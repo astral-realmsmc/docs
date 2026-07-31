@@ -125,6 +125,19 @@
               "items/enchanted",
               "items/effect"
             ]
+          },
+            {
+            "item": "Divers",
+            "icon": "puzzle-piece",
+            "pages": [
+              "other_fonctionnality/scrolls",
+              "other_fonctionnality/pets",
+              "other_fonctionnality/pass",
+              "other_fonctionnality/tags",
+              "other_fonctionnality/collections",
+              "other_fonctionnality/plushies",
+              "other_fonctionnality/classements"
+            ]
           }
         ]
       },
@@ -141,7 +154,9 @@
               "economy/dailyshop",
               "economy/ah",
               "economy/shops",
-              "economy/rewards"
+              "economy/rewards",
+              "other_fonctionnality/vote",
+              "other_fonctionnality/spawners"
             ]
           },
           {
@@ -173,20 +188,11 @@
           {
             "group": "Autres fonctionnalités",
             "pages": [
-              "other_fonctionnality/scrolls",
-              "other_fonctionnality/vote",
-              "other_fonctionnality/pets",
-              "other_fonctionnality/pass",
-              "other_fonctionnality/tags",
               "other_fonctionnality/commands",
               "other_fonctionnality/settings",
               "other_fonctionnality/mailbox",
-              "other_fonctionnality/collections",
-              "other_fonctionnality/plushies",
               "other_fonctionnality/crafts",
               "other_fonctionnality/parrainages",
-              "other_fonctionnality/spawners",
-              "other_fonctionnality/classements",
               "other_fonctionnality/fournitures",
               "other_fonctionnality/voicechat"
             ]
