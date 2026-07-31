@@ -139,7 +139,7 @@ Tu peux récolter de la vase dans le biome Marais Tropical.
 </CardGroup>
 
 
-<CardGroup cols={5}>
+<div style={{display: "grid", gridTemplateColumns: "repeat(5, 1fr)", gap: "1rem"}}>
     <Card>
         <img
           src="/images/Items_customs/titane/sword.png"
@@ -154,7 +154,6 @@ Tu peux récolter de la vase dans le biome Marais Tropical.
           className="item-icon"
         />
     </Card>
-
     <Card>
         <img
           src="/images/Items_customs/titane/axe.png"
@@ -169,14 +168,11 @@ Tu peux récolter de la vase dans le biome Marais Tropical.
           className="item-icon"
         />
     </Card>
-        <Card>
+    <Card>
         <img
           src="/images/Items_customs/titane/hoe.png"
           alt="Houe en titane"
           className="item-icon"
         />
     </Card>
-</CardGroup>
-
-
-
+</div>
