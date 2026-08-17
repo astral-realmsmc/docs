@@ -70,7 +70,8 @@
             "item": "Donjons",
             "icon": "dungeon",
             "pages": [
-              "dungeon/introduction"
+              "dungeon/introduction",
+              "dungeon/creeper_forest"
             ]
           },
           {
