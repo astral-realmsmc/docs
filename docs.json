@@ -71,7 +71,8 @@
             "icon": "dungeon",
             "pages": [
               "dungeon/introduction",
-              "dungeon/creeper_forest"
+              "dungeon/creeper_forest",
+              "dungeon/cactus_canyon"
             ]
           },
           {
