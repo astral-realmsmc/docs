@@ -6,6 +6,14 @@ img.mc-asset {
   image-rendering: pixelated;
 }
 
+img.mc-asset-inline {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  image-rendering: pixelated;
+  flex-shrink: 0;
+}
+
 /* Utilisé page marais_tropical */
 .item-icon {
   width: 100%;
