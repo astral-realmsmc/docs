@@ -1,11 +1,15 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "aspen",
   "name": "AstralRealms",
+  "theme": "aspen",
   "colors": {
     "primary": "#26d971",
     "light": "#267ad9",
     "dark": "#26d971"
+  },
+  "logo": {
+    "light": "/logo/logo-black.png",
+    "dark": "/logo/logo-white.png"
   },
   "favicon": "/favicon.ico",
   "navigation": {
@@ -31,7 +35,6 @@
           {
             "group": "Autres",
             "pages": [
-              "welcome/wiki",
               "welcome/pillar"
             ]
           }
@@ -213,10 +216,6 @@
         }
       ]
     }
-  },
-  "logo": {
-    "light": "/logo/logo-black.png",
-    "dark": "/logo/logo-white.png"
   },
   "navbar": {
     "links": [
