@@ -35,7 +35,8 @@
           {
             "group": "Autres",
             "pages": [
-              "welcome/pillar"
+              "welcome/pillar",
+              "role-divers"
             ]
           }
         ]
