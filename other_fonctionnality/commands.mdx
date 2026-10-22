@@ -1,193 +1,184 @@
 ---
-title: "Les commandes"
-description: "Toutes les commandes du serveur"
-icon: "keyboard"
+title: Les commandes
+description: Toutes les commandes du serveur
+icon: keyboard
 ---
 
-## 📋 Menu 
+## 📋 Menu
 
--``/menu`` : ouvrir le menu principal\
--``/boutique`` : ouvrir le menu de la boutique\
--``/parametres`` : ouvrir le menu des paramètres
-
+-`/menu` : ouvrir le menu principal\
+-`/boutique` : ouvrir le menu de la boutique\
+-`/parametres` : ouvrir le menu des paramètres
 
 ## 🌍 Mondes
 
--``/dimension`` : ouvre le menu des dimensions\
--``/spawn`` *(ou /s)* : téléporter au spawn\
--``/build`` : téléporter dans la dimension construction\
--``/ressource`` : téléporter dans la dimension ressource\
--``/nether ``: téléporter dans la dimension nether\
--``/end`` : téléporter dans la dimension ender\
--``/rtp`` : téléporter aléatoirement\
--``/tpa `` : envoyer une demande de téléportation pour se téléporter à quelqu'un\
--``/tpahere`` : envoyer une demande de téléportation pour téléporter à quelqu'un sur soi\
--``/tpyes``: accepter la demande de téléportation\
--``/tpno`` : refuser la demande de téléportation\
--``/sethome`` 'nom' : créer un home\
--``/home`` *(ou /h)* 'nom' : téléporter à un home\
--``/delhome`` 'nom' : supprimer le home
+-`/dimension` : ouvre le menu des dimensions\
+-`/spawn` _(ou /s)_ : téléporter au spawn\
+-`/build` : téléporter dans la dimension construction\
+-`/ressource` : téléporter dans la dimension ressource\
+-`/nether `: téléporter dans la dimension nether\
+-`/end` : téléporter dans la dimension ender\
+-`/rtp` : téléporter aléatoirement\
+-`/tpa ` : envoyer une demande de téléportation pour se téléporter à quelqu'un\
+-`/tpahere` : envoyer une demande de téléportation pour téléporter à quelqu'un sur soi\
+-`/tpyes`: accepter la demande de téléportation\
+-`/tpno` : refuser la demande de téléportation\
+-`/sethome` 'nom' : créer un home\
+-`/home` _(ou /h)_ 'nom' : téléporter à un home\
+-`/delhome` 'nom' : supprimer le home
 
-## 🏠 Ville 
+## 🏠 Ville
 
+-`/v create` : créer une ville\
+-`/v disband` : supprimer la ville\
+-`/v info [nom]` : afficher les informations d'une ville\
+-`/v rename [nom]` : renommer la ville\
+-`/v player [pseudo]` : afficher les informations d'un joueur\
+-`/v invite [pseudo]` : inviter un joueur à sa ville\
+-`/v cancel [pseudo]` : annuler l'invitation d'un joueur\
+-`/v accept` : accepter l'invitation\
+-`/v decline`: refuser l'invitation\
+-`/v spawn` ou `/vs` : se téléporter au point de spawn\
+-`/v select` : sélectionner une ville\
+-`/v kick [pseudo]`: expulser un joueur de la ville\
+-`/v ban [pseudo]` : bannir un joueur de la ville\
+-`/v bans` : voir la liste des joueurs bannis de la ville\
+-`/v unban [pseudo]` : débannir un joueur de la ville\
+-`/v leave` : quitter la ville\
+-`/v transfer [pseudo]` : transférer la propriété \
+-`/v members` : ouvrir le menu des membres\
+-`/v online` : montrer les membres en ligne\
+-`/v chat` : activer/désactiver le chat de ville\
+-`/v claim` : claim le chunk\
+-`/v autoclaim` : claim automatiquement les chunks où l'on se situe\
+-`/v unclaim` : unclaim le chunk\
+-`/v settings` : ouvrir le menu des paramètres\
+-`/v view` : visualiser les claims et sous zone\
+-`/v roles` : ouvrir le menu des rôles\
+-`/v broadcast` : faire une annonce dans la ville\
+-`/v motd` : modifier le message d'arrivée dans la ville\
+-`/v logs`: ouvrir le menu des logs de ville.\
+-`/v setwarp [nom]` ou `/vw set [nom]` : créer un warp de ville et définir le point de téléportation\
+-`/v delwarp [nom]` ou `/vw del [nom]` : supprimer le warp de ville\
+-`/vw set`: permet de définir le point de spawn d'un warp.\
+-`/vw info [nom]` : redirige vers le menu `/v info [nom de la ville]`\
+-`/v bank` : ouvrir la banque de la ville sélectionnée\
+-`/v balance`: avoir le solde de sa ville\
+-`/v deposit` : déposer de l'argent\
+-`/v withdraw` : retirer de l'argent\
+-`/v zone` : ouvrir le menu des sous zones\
+-`/v zone create` : crée une sous zone\
+-`/v zone invite [nom de la sous zone] [pseudo]` : inviter un joueur dans la sous zone\
+-`/v zone kick  [nom de la sous zone] [pseudo]` : expulser un joueur de la sous zone\
+-`/v zone delete [nom de la sous zone]` : supprimer la sous zone
 
--``/v create`` : créer une ville\
--``/v disband`` : supprimer la ville\
--``/v info [nom]`` : afficher les informations d'une ville\
--``/v rename [nom]`` : renommer la ville\
--``/v player [pseudo]`` : afficher les informations d'un joueur\
--``/v invite [pseudo]`` : inviter un joueur à sa ville\
--``/v cancel [pseudo]`` : annuler l'invitation d'un joueur\
--``/v accept`` : accepter l'invitation\
--``/v decline``: refuser l'invitation\
--``/v spawn`` ou ``/vs`` : se téléporter au point de spawn\
--``/v select`` : sélectionner une ville\
--``/v kick [pseudo]``: expulser un joueur de la ville\
--``/v ban [pseudo]`` : bannir un joueur de la ville\
--``/v bans`` : voir la liste des joueurs bannis de la ville\
--``/v unban [pseudo]`` : débannir un joueur de la ville\
--``/v leave`` : quitter la ville\
--``/v transfer [pseudo]`` : transférer la priorité\
--``/v members`` : ouvrir le menu des membres\
--``/v online`` : montrer les membres en ligne\
--``/v chat`` : activer/désactiver le chat de ville\
--``/v claim`` : claim le chunk\
--``/v autoclaim`` : claim automatiquement les chunks où l'on se situe\
--``/v unclaim`` : unclaim le chunk\
--``/v settings`` : ouvrir le menu des paramètres\
--``/v view`` : visualiser les claims et sous zone\
--``/v roles`` : ouvrir le menu des rôles\
--``/v broadcast`` : faire une annonce dans la ville\
--``/v motd`` : modifier le message d'arrivée dans la ville\
--``/v logs``: ouvrir le menu des logs de ville.\
--``/v setwarp [nom]`` ou ``/vw set [nom]`` : créer un warp de ville et définir le point de téléportation\
--``/v delwarp [nom]`` ou ``/vw del [nom]`` : supprimer le warp de ville\
--``/vw set``: permet de définir le point de spawn d'un warp.\
--``/vw info [nom]`` : redirige vers le menu `/v info [nom de la ville]`\
--``/v bank`` : ouvrir la banque de la ville sélectionnée\
--``/v balance``: avoir le solde de sa ville\
--``/v deposit`` : déposer de l'argent\
--``/v withdraw`` : retirer de l'argent\
--``/v zone`` : ouvrir le menu des sous zones\
--``/v zone create`` : crée une sous zone\
--``/v zone invite [nom de la sous zone] [pseudo]`` : inviter un joueur dans la sous zone\
--``/v zone kick  [nom de la sous zone] [pseudo]`` : expulser un joueur de la sous zone\
--``/v zone delete [nom de la sous zone]`` : supprimer la sous zone
-
-
-
-*Pour plus d'informations concernant les [villes](https://wiki.astralrealms.fr/town/introduction), consulte la page dédiée.*
-
+_Pour plus d'informations concernant les&#x20;_[_villes_](https://wiki.astralrealms.fr/town/introduction)_, consulte la page dédiée._
 
 ## 🗼Tour dimensionnelle & Donjon
 
-### Commandes communes 
--``/party create`` : Créer un groupe\
--``/party invite`` [pseudo] : inviter un joueur dans son groupe\
--``/party accept`` : accepter l'invitation\
--``/party decline`` : refuser l'invitation\
--``/party leave`` : quitter le groupe\
--``/party kick`` : expulser un joueur de son groupe\
--``/party transfer :`` transférer la propriété du groupe\
--``/party disband :`` dissoudre le groupe
+### Commandes communes
 
-### 🗼 Tour 
+-`/party create` : Créer un groupe\
+-`/party invite` \[pseudo] : inviter un joueur dans son groupe\
+-`/party accept` : accepter l'invitation\
+-`/party decline` : refuser l'invitation\
+-`/party leave` : quitter le groupe\
+-`/party kick` : expulser un joueur de son groupe\
+-`/party transfer :` transférer la propriété du groupe\
+-`/party disband :` dissoudre le groupe
 
--``/tour`` : ouvrir le menu de la tour\
-*Pour plus d'informations concernant la [tour dimensionnelle](https://wiki.astralrealms.fr/tower/introduction), consulte la page dédiée.*
+### 🗼 Tour
 
-### 🌀 Donjon 
--``/donjon`` : ouvrir le menu des équipements\
--``/unstuck`` : se débloquer d'un endroit
+-`/tour` : ouvrir le menu de la tour\
+_Pour plus d'informations concernant la&#x20;_[_tour dimensionnelle_](https://wiki.astralrealms.fr/tower/introduction)_, consulte la page dédiée._
 
-*Pour plus d'informations concernant les [Donjons](https://wiki.astralrealms.fr/dungeon/introduction), consulte la page dédiée.*
+### 🌀 Donjon
+
+-`/donjon` : ouvrir le menu des équipements\
+-`/unstuck` : se débloquer d'un endroit
+
+_Pour plus d'informations concernant les&#x20;_[_Donjons_](https://wiki.astralrealms.fr/dungeon/introduction)_, consulte la page dédiée._
 
 ## 💵 Economie
 
--``/money`` : voir son solde\
--``/baltop`` : voir le classement top 10\
--``/pay`` [pseudo] [montant] : payer un joueur\
--``/ah`` : ouvrir le menu de l'ah\
--``/ah sell`` [prix] [quantité] : vendre l'item de sa main
+-`/money` : voir son solde\
+-`/baltop` : voir le classement top 10\
+-`/pay` \[pseudo] \[montant] : payer un joueur\
+-`/ah` : ouvrir le menu de l'ah\
+-`/ah sell` \[prix] \[quantité] : vendre l'item de sa main
 
+## 💪 Progression
 
-## 💪 Progression 
-
--``/rang`` : ouvrir le menu des rangs\
--``/missions`` *[eco/farmer/fisherman/hunter/jobs-level/lumberjack/miner/other/player-level]* : ouvrir le menu des missions pour une catégorie spécifique\
--``/metier`` ou ``/jobs`` : ouvrir le menu des métiers\
--``/jobs claim`` : récupérer les récompenses disponibles des niveaux de métier\`
--``/parchemins`` : ouvrir le menu des parchemins, permettant de voir les récompenses pour chaque rareté\
--``/rewards`` : ouvrir le menu des récompenses journalières et des temps de jeu\
--``/votes`` :  ouvrir le menu des votes
--``/recipes`` : ouvrir le menu des recettes 
+-`/rang` : ouvrir le menu des rangs\
+-`/missions` _\[eco/farmer/fisherman/hunter/jobs-level/lumberjack/miner/other/player-level]_ : ouvrir le menu des missions pour une catégorie spécifique\
+-`/metier` ou `/jobs` : ouvrir le menu des métiers\
+-`/jobs claim` : récupérer les récompenses disponibles des niveaux de métier\`
+-`/parchemins` : ouvrir le menu des parchemins, permettant de voir les récompenses pour chaque rareté\
+-`/rewards` : ouvrir le menu des récompenses journalières et des temps de jeu\
+-`/votes` :  ouvrir le menu des votes
+-`/recipes` : ouvrir le menu des recettes
 
 ## 🎤 Social
 
--``/msg [pseudo]`` : envoyer un message à un joueur\
--``/ignore [pseudo]`` : ignorer un joueur\
--``/ignore`` : menu des joueurs que tu ignores\
--``/unignore [pseudo]`` : désignorer un joueur\
--``/togglepm`` : activer/désactiver les mp\
--``/chatcommerce``ou ``/cc``  : envoyer un message dans le chat commerce (⏳ 15 minutes)\
--``/chatrecrutement``ou ``/cr``  : envoyer un message dans le chat recrutement (⏳ 15 minutes)\
--``/unscribe`` [recrutement/commerce/global] : désactiver le chat recrutement/commerce/global\
--``/tags``: ouvrir le menu des tags
+-`/msg [pseudo]` : envoyer un message à un joueur\
+-`/ignore [pseudo]` : ignorer un joueur\
+-`/ignore` : menu des joueurs que tu ignores\
+-`/unignore [pseudo]` : désignorer un joueur\
+-`/togglepm` : activer/désactiver les mp\
+-`/chatcommerce`ou `/cc`  : envoyer un message dans le chat commerce (⏳ 15 minutes)\
+-`/chatrecrutement`ou `/cr`  : envoyer un message dans le chat recrutement (⏳ 15 minutes)\
+-`/unscribe` \[recrutement/commerce/global] : désactiver le chat recrutement/commerce/global\
+-`/tags`: ouvrir le menu des tags
 
 ## 📜 Rangs & Grades
 
 <div align="center">
-
-
-| ⌨️ Commande | ❔​ Utilisation | ⏳​ Cooldown | 📜​ Obtention |
-|:--------:|:-----------:|:--------:|:----------:|
-| **``/pweather``** | *Modifier la météo pour soi* | ❌ | Roturier / Arcane |
-| **``/furnace``** | *Cuire l'item en main* | ⏳ 5 min | Serfs / Arcane |
-| **``/craft``** | *Ouvrir la table de craft* | ❌ | Paysan / Arcane |
-| **``/condense``** | *Transformer les ressources en blocs* | ⏳ 10s | Apprenti / Arcane |
-| **``/strip``** | *Écorcer les bûches dans la main* | ⏳ 5 min | Apprenti / Arcane |
-| **``/ptime``** | *Changer le temps* | ❌ | Artisan / Arcane |
-| **``/ptime reset``** | *Remettre le temps actuel du serveur* | ❌ | Artisan / Arcane |
-| **``/candle``** | *Allumer les bougies* | ❌ | Villageois |
-| **``/sell``** | *Vendre l'item dans la main* | ❌ | Écuyer / Arcane |
-| **``/condense all``** | *Transformer toutes les ressources de l'inventaire en blocs* | ⏳ 5 min | Architecte / Arcane |
-| **``/top``** | *Téléporter à la dernière couche* | ❌ | Bourgeois / Arcane |
-| **``/stonecutter``** | *Ouvrir la tailleuse de pierre* | ❌ | Bourgeois |
-| **``/furnace all``** | *Cuire tous les items de son inventaire* | ⏳ 6h | Marchand / Céleste |
-| **``/feed``** | *Se nourrir* | ⏳ 30s | Chevalier / Céleste |
-| **``/concrete``** | *Transformer le bloc de béton en poudre en béton* | ⏳ 5m | Chevalier |
-| **``/heal``** | *Se soigner* | ⏳ 60 min | Maître / Mystique |
-| **``/strip all``** | *Écorcer les bûches de son inventaire* | ⏳ 6h | Maître / Mystique |
-| **``/repair``** | *Réparer l'item de sa main* | ⏳ 60 min | Baron / Céleste |
-| **``/ec``** | *Ouvrir l'enderchest* | ❌ | Baron |
-| **``/concrete all``** | *Transformer tous les blocs de bétons en poudre de ton inventaire en béton* | 1h | Marquis / Mystique |
-| **``/anvil``** | *Ouvrir l'enclume* | ❌ | Duc / Céleste |
-| **``/xpbottle``** | *Créer des fioles d'XP* | ❌ | Gouverneur / Mystique |
-| **``/back``** | *Se téléporter à son ancienne position* | ❌ | Comte / Mystique |
-| **``/sell all``** | *Vendre les items de son inventaire* | ❌ | Prince / Mystique |
-| **``/fire``** | *Retirer l'effet de feu* | ❌ | Roi / Mystique |
-| **``/repair all``** | *Réparer tous les outils vanilla de son inventaire* | ⏳ 24h | Seigneur / Mystique |
-| **``/fly``** (infini) | *Fly* | ❌ | Empereur / Mystique |
-| **``/hat``** | *Mettre des items sur sa tête* | ❌ | Mystique |
+  |     ⌨️ Commande     |                                ❔​ Utilisation                               | ⏳​ Cooldown |     📜​ Obtention     |
+  | :-----------------: | :-------------------------------------------------------------------------: | :---------: | :-------------------: |
+  |   **`/pweather`**   |                         _Modifier la météo pour soi_                        |      ❌      |   Roturier / Arcane   |
+  |    **`/furnace`**   |                            _Cuire l'item en main_                           |   ⏳ 5 min   |     Serfs / Arcane    |
+  |     **`/craft`**    |                          _Ouvrir la table de craft_                         |      ❌      |    Paysan / Arcane    |
+  |   **`/condense`**   |                    _Transformer les ressources en blocs_                    |    ⏳ 10s    |   Apprenti / Arcane   |
+  |     **`/strip`**    |                      _Écorcer les bûches dans la main_                      |   ⏳ 5 min   |   Apprenti / Arcane   |
+  |     **`/ptime`**    |                              _Changer le temps_                             |      ❌      |    Artisan / Arcane   |
+  |  **`/ptime reset`** |                    _Remettre le temps actuel du serveur_                    |      ❌      |    Artisan / Arcane   |
+  |    **`/candle`**    |                            _Allumer les bougies_                            |      ❌      |       Villageois      |
+  |     **`/sell`**     |                         _Vendre l'item dans la main_                        |      ❌      |    Écuyer / Arcane    |
+  | **`/condense all`** |         _Transformer toutes les ressources de l'inventaire en blocs_        |   ⏳ 5 min   |  Architecte / Arcane  |
+  |      **`/top`**     |                      _Téléporter à la dernière couche_                      |      ❌      |   Bourgeois / Arcane  |
+  |  **`/stonecutter`** |                       _Ouvrir la tailleuse de pierre_                       |      ❌      |       Bourgeois       |
+  |  **`/furnace all`** |                   _Cuire tous les items de son inventaire_                  |     ⏳ 6h    |   Marchand / Céleste  |
+  |     **`/feed`**     |                                 _Se nourrir_                                |    ⏳ 30s    |  Chevalier / Céleste  |
+  |   **`/concrete`**   |              _Transformer le bloc de béton en poudre en béton_              |     ⏳ 5m    |       Chevalier       |
+  |     **`/heal`**     |                                 _Se soigner_                                |   ⏳ 60 min  |   Maître / Mystique   |
+  |   **`/strip all`**  |                    _Écorcer les bûches de son inventaire_                   |     ⏳ 6h    |   Maître / Mystique   |
+  |    **`/repair`**    |                         _Réparer l'item de sa main_                         |   ⏳ 60 min  |    Baron / Céleste    |
+  |      **`/ec`**      |                            _Ouvrir l'enderchest_                            |      ❌      |         Baron         |
+  | **`/concrete all`** | _Transformer tous les blocs de bétons en poudre de ton inventaire en béton_ |      1h     |   Marquis / Mystique  |
+  |     **`/anvil`**    |                              _Ouvrir l'enclume_                             |      ❌      |     Duc / Céleste     |
+  |   **`/xpbottle`**   |                           _Créer des fioles d'XP_                           |      ❌      | Gouverneur / Mystique |
+  |     **`/back`**     |                   _Se téléporter à son ancienne position_                   |      ❌      |    Comte / Mystique   |
+  |   **`/sell all`**   |                     _Vendre les items de son inventaire_                    |      ❌      |   Prince / Mystique   |
+  |     **`/fire`**     |                           _Retirer l'effet de feu_                          |      ❌      |     Roi / Mystique    |
+  |  **`/repair all`**  |             _Réparer tous les outils vanilla de son inventaire_             |    ⏳ 24h    |  Seigneur / Mystique  |
+  | **`/fly`** (infini) |                                    _Fly_                                    |      ❌      |  Empereur / Mystique  |
+  |      **`/hat`**     |                        _Mettre des items sur sa tête_                       |      ❌      |        Mystique       |
 </div>
-*Pour plus d'informations concernant les [grades](https://wiki.astralrealms.fr/store/grades) et les [rangs](https://wiki.astralrealms.fr/ranks/ranks), consulte leurs pages respectives.*
 
-
+_Pour plus d'informations concernant les&#x20;_[_grades_](https://wiki.astralrealms.fr/store/grades)_&#x20;et les&#x20;_[_rangs_](https://wiki.astralrealms.fr/ranks/ranks)_, consulte leurs pages respectives._
 
 ## 🔒 Cadenas
 
--``/cadenas`` : ouvrir le menu d'achat du cadenas\
--``/pc add [pseudo]`` : ajouter un joueur au coffre privé\
--``/pc remove [pseudo]`` : retirer un joueur du coffre privé\
--``/pc list`` : voir la liste des joueurs qui ont accès à un coffre privé
+-`/cadenas` : ouvrir le menu d'achat du cadenas\
+-`/pc add [pseudo]` : ajouter un joueur au coffre privé\
+-`/pc remove [pseudo]` : retirer un joueur du coffre privé\
+-`/pc list` : voir la liste des joueurs qui ont accès à un coffre privé
 
-*Pour plus d'informations concernant les [cadenas](https://wiki.astralrealms.fr/other_fonctionnality/lock), consulte la page dédiée.*
+_Pour plus d'informations concernant les&#x20;_[_cadenas_](https://wiki.astralrealms.fr/other_fonctionnality/lock)_, consulte la page dédiée._
 
 ## ⚙️ Divers
 
--``/mailbox`` : ouvrir la mailbox\
--``/emoji`` : ouvrir le menu des emojis\
--``/discord`` ou ``/dc`` : discord du serveur\
--``/link`` : pour lier son compte MC à Discord
-
-
+-`/mailbox` : ouvrir la mailbox\
+-`/emoji` : ouvrir le menu des emojis\
+-`/discord` ou `/dc` : discord du serveur\
+-`/link` : pour lier son compte MC à Discord
