@@ -59,6 +59,7 @@
             "icon": "city",
             "pages": [
               "town/introduction",
+              "empires",
               "town/roles",
               "town/members",
               "town/bank",
