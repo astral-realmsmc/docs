@@ -142,13 +142,13 @@
             "item": "Divers",
             "icon": "puzzle-piece",
             "pages": [
-              "other_fonctionnality/scrolls",
               "other_fonctionnality/pets",
               "other_fonctionnality/pass",
               "other_fonctionnality/tags",
               "other_fonctionnality/collections",
               "other_fonctionnality/plushies",
-              "other_fonctionnality/classements"
+              "other_fonctionnality/classements",
+              "les-parchemins"
             ]
           }
         ]
